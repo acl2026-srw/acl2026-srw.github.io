@@ -64,7 +64,7 @@ The workshop will take place on **Monday, July 28** and **Tuesday, July 29** at 
 
 This hybrid session will include both **in-person** and **virtual poster presentations**.
 
-[UPDATE:] During the virtual sessions, you will be required to present your paper using a poster or a set of slides in a 4-minute talk, followed by a 2-minute Q&A session.
+[UPDATE:] During the virtual sessions, you will be required to present your paper using a poster or a set of slides in a 4-minute talk, followed by a 2-minute Q&A session. You can check your presentation order in the underline.
 
 ---
 
@@ -74,7 +74,7 @@ This hybrid session will include both **in-person** and **virtual poster present
 
 This is the final session of the workshop, also featuring **in-person** and **virtual poster presentations**.
 
-[UPDATE:] During the virtual sessions, you will be required to present your paper using a poster or a set of slides in a 4-minute talk, followed by a 2-minute Q&A session.
+[UPDATE:] During the virtual sessions, you will be required to present your paper using a poster or a set of slides in a 4-minute talk, followed by a 2-minute Q&A session. You can check your presentation order in the underline.
 
 ---
 
