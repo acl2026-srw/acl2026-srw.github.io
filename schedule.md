@@ -60,7 +60,7 @@ The workshop will take place on **Monday, July 28** and **Tuesday, July 29** at 
 
 ## Session 7 – Poster Session (Hybrid)  
 **Date & Time:** Tuesday, July 29 | 10:30–12:00  
-**Location:** Hall 4/5 & Zoom (GatherTown)  
+**Location:** Hall 4/5 & Zoom
 
 This hybrid session will include both **in-person** and **virtual poster presentations**.
 
@@ -70,7 +70,7 @@ This hybrid session will include both **in-person** and **virtual poster present
 
 ## Session 10 – Poster Session (Hybrid)  
 **Date & Time:** Tuesday, July 29 | 16:00–17:30  
-**Location:** Hall 4/5 & Zoom (GatherTown)
+**Location:** Hall 4/5 & Zoom
 
 This is the final session of the workshop, also featuring **in-person** and **virtual poster presentations**.
 
