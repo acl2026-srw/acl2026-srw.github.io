@@ -20,16 +20,16 @@ theme: jekyll-theme-cayman
 # Site Settings
 locale                   : "en"
 baseurl                  : ""
-title                    : "ACL Student Research Workshop (SRW) 2025"
+title                    : "ACL Student Research Workshop (SRW) 2026"
 title_separator          : "-"
 name                     : "ACL"
-description              : "In conjunction with ACL 2025 in Vienna, Austria" 
+description              : "In conjunction with ACL 2026 in San Diego, US" 
 breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus"
   disqus:
-    shortname            : "acl2025srw"
+    shortname            : "acl2026srw"
 reCaptcha:
   siteKey                :
   secret                 :
@@ -46,8 +46,9 @@ algolia:
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
+
 # Google services
-google_analytics: G-H0WTYZKZ8Y
+# google_analytics: G-H0WTYZKZ8Y
 
 # SEO Related
 google_site_verification :
@@ -60,7 +61,7 @@ naver_site_verification  :
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: acl.2025.srw@gmail.com
-  github: acl2025-srw
+  email: acl.2026.srw@gmail.com
+  github: acl2026-srw
   twitter: acl_srw
   

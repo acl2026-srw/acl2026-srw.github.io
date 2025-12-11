@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "ACL Student Research Workshop (SRW) 2025"
+title: "ACL Student Research Workshop (SRW) 2026"
 permalink: /
 order: 1
 ---
@@ -8,16 +8,16 @@ order: 1
 
 <!-- button class="btn btn-success" onclick="window.location.href='/mentoring';">Submit your paper draft to our mentorshop program by Feb 1!</button -->
 
-# Welcome to ACL SRW 2025
-The ACL 2025 Student Research Workshop (SRW) will be held in conjunction with [ACL 2025](https://2025.aclweb.org/). It is a forum to bring together students investigating various areas of Computational Linguistics, Natural Language Processing and Machine Learning. The workshop provides an excellent opportunity for participants to present their work and to receive mentorship and valuable feedback from the international research community.
+# Welcome to ACL SRW 2026!
+The ACL 2025 Student Research Workshop (SRW) will be held in conjunction with [ACL 2026](https://2026.aclweb.org/) in San Diego, CA, from July 2 - 7, 2026. It is a forum to bring together students investigating various areas of Computational Linguistics, Natural Language Processing and Machine Learning. The workshop provides an excellent opportunity for participants to present their work and to receive mentorship and valuable feedback from the international research community.
 
 The workshop’s goal is to aid students at multiple stages of their education, including highschool, undergraduate, MSc/MA, junior and senior PhD students, in getting familiar with conducting and presenting their research.
 
-<!-- <br> -->
-<!-- We will update this site when latest information are available (Update time: 2025.11.04). -->
+<br>
+We will update this site when latest information are available (Update time: 2025.12.11).
 
-Contact us via email at [acl.2025.srw@gmail.com](mailto:acl.2025.srw@gmail.com) for any questions.
-<!-- Get connected with us on [Twitter](https://twitter.com/acl_srw). -->
+Contact us via email at [acl.2025.srw@gmail.com](mailto:acl.2026.srw@gmail.com) for any questions.
+Get connected with us on [Twitter](https://twitter.com/acl_srw).
 
 <!-- Note below is outdated, and we will update soon! -->
 <!-- ----
@@ -25,8 +25,8 @@ Contact us via email at [acl.2025.srw@gmail.com](mailto:acl.2025.srw@gmail.com) 
 If you would like to get feedback from mentors, please fill in this [form](https://docs.google.com/forms/d/e/1FAIpQLSecnxBYtvjJnZ2NdvAxB84q6RRBK97pbUXsaj14AdOC71ZLTA/viewform?usp=dialog) before March 27, 2025. -->
 
 ----
-# News Alerts
-
+# News
+<!-- ----
 July 19: [Program schedule](https://acl2025-srw.github.io/schedule) is updated.
 
 July 9: Acknowledgement [update](https://acl2025-srw.github.io/acknowledgement) with deepest thanks.
@@ -51,9 +51,11 @@ June 21, 2025: All the reviews have been returned to the authors.
 
 June 6, 2025: Filling this [form](https://cryptpad.fr/form/#/2/form/view/IrfF8hdarp0UwDMlrIApSUjPIo5XoyzsBLRHIPkhMIU/) for obtaining a VISA in advance, more [info](https://2025.aclweb.org/visa/) here.
 
-May 24, 2025: [Grant Application Guideline](https://acl2025-srw.github.io/travel_grant) has been updated
+May 24, 2025: [Grant Application Guideline](https://acl2025-srw.github.io/travel_grant) has been updated -->
 
-----
+Dec 11, 2025: SRW website is launched.
+
+<!----
 !! -- We are recruiting mentors and reviewers!
 
 ~~Mentoring is a great way to meet new researchers interested in your research area, and to have a positive impact on the ACL community. See more info in [mentoring](https://acl2025-srw.github.io/mentoring) page. Please fill out this form if you are interested!~~
@@ -65,14 +67,14 @@ Also, we are also seeking reviewers whose responsibilities include evaluating pa
 
 <!-- ### List of the accepted papers are available [here](/accepted) -->
 
-<!-- # Differences from Past SRWs -->
+<!-- # Differences from Past SRWs
 Similar to past SRWs, ACL 2025 SRW has two submission options--archival (appear in proceedings) and non-archival (only for presentation).
 Authors can elect for both research papers and thesis proposals to be non-archival, in order to more explicitly encourage work in progress which can later be submitted to a future (archival) conference.
 From a mentorship and reviewing standpoint, archival and nonarchival submissions are treated the same.
 
 ACL 2025 SRW still has two different categories: thesis proposals and research papers.
 
-See the [call for papers](cfp.md) for more details.
+See the [call for papers](cfp.md) for more details. -->
 
 <!-- ## Announcements
 
@@ -89,7 +91,7 @@ Don't miss out on the enriching conversations!  -->
 <!-- Submission link for the workshop is now available [here](https://softconf.com/acl2023/srw-submissions) -->
 
 ## Anti-Harassment Policy
-The ACL Student Research Workshop 2025 adheres to the [ACL anti-harassment policy](https://www.aclweb.org/adminwiki/index.php?title=Anti-Harassment_Policy). Please contact any current member of the [ACL Executive Committee](https://www.aclweb.org/portal/about) or [Priscilla Rasmussen](mailto:acl@aclweb.org) if you face any harassment or hostile behavior.
+The ACL Student Research Workshop 2026 adheres to the [ACL anti-harassment policy](https://www.aclweb.org/adminwiki/index.php?title=Anti-Harassment_Policy). Please contact any current member of the [ACL Executive Committee](https://www.aclweb.org/portal/about) if you face any harassment or hostile behavior.
 
 <!-- # Sponsored By        -->
 <!-- ![Computing Research Association’s Computing Community Consortium (CCC)](images/ccc_hz copy.jpg)

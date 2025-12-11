@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Call For Papers: ACL 2025 Student Research Workshop"
+title: "Call For Papers: ACL 2026 Student Research Workshop"
 permalink: /cfp
 order : 1
 
@@ -8,11 +8,14 @@ order : 1
 
 # Call for Papers
 
-Student Research Workshop co-located with ACL 2025 in Vienna, Austria.
+Student Research Workshop co-located with ACL 2026 in San Diego, US.
 
-Main Conference: July 27 to August 1, 2025
+Main Conference: July 2 to 7, 2026
 
-***Paper Submission Deadline: May 18th, 2025***
+Coming soon!
+
+
+<!--***Paper Submission Deadline: May 18th, 2025***
 
 Submission link for the workshop is now available [here](https://openreview.net/group?id=aclweb.org/ACL/2025/SRW&referrer=%5BHomepage%5D(%2F)#tab-recent-activity)
 
@@ -143,4 +146,4 @@ For visa information please check the [ACL 2025 page](https://2025.aclweb.org/ve
 
 - [Zhu Liu](https://juniperliuzhu.netlify.app/), Tsinghua University (China)
 - [Mingyang Wang](https://mingyang-wang26.github.io/), LMU Munich (Germany)
-- [Jin Zhao](https://jinzhao3611.github.io/), Brandeis University (USA)
+- [Jin Zhao](https://jinzhao3611.github.io/), Brandeis University (USA)-->

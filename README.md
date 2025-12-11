@@ -1,2 +1,2 @@
-# ACL 2023 SRW Website
-Coming soon to an ACL near you :)
+# ACL SRW 2026 Website
+This repository includes scripts for ACL 2026 SRW website. The content is mainly written in Markdown files.
