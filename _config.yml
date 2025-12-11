@@ -17,6 +17,10 @@
 # #Others
 # markdown: kramdown
 theme: jekyll-theme-cayman
+collections:
+  pages:
+    output: true
+
 # Site Settings
 locale                   : "en"
 baseurl                  : ""

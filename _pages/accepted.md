@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Accepted Papers (Archival)"
+permalink: /accepted
+nav_hidden: true
+published: false
+---
+
 ## Archival
 
 ***Advancing African-Accented English Speech Recognition: Epistemic Uncertainty-Driven Data Selection for Generalizable ASR Models***\

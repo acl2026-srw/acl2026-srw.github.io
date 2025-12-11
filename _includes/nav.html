@@ -1,9 +1,16 @@
 <nav class="nav-primary" role="navigation" >
     <ul>
-        {% for p in site.pages %}
-        <li>
-        	<a {% if p.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
-        </li>
+        {% assign nav_pages = site.pages %}
+        {% if site.collections.pages %}
+            {% assign nav_pages = nav_pages | concat: site.collections.pages.docs %}
+        {% endif %}
+        {% assign nav_pages = nav_pages | sort: "order" %}
+        {% for p in nav_pages %}
+            {% if p.title and p.published != false and p.nav_hidden != true %}
+                <li>
+                	<a {% if p.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
+                </li>
+            {% endif %}
         {% endfor %}
     </ul>
 </nav>

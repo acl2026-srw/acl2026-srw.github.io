@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Program Schedule"
+permalink: /schedule
+nav_hidden: true
+published: false
+---
+
 # Workshop Program
 
 The workshop will take place on **Monday, July 28** and **Tuesday, July 29** at the [Austria Center Vienna](https://www.acv.at/en/). The program consists of three sessions, featuring oral and poster presentations.
