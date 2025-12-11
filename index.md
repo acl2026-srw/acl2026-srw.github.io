@@ -14,9 +14,10 @@ The ACL 2025 Student Research Workshop (SRW) will be held in conjunction with [A
 The workshop’s goal is to aid students at multiple stages of their education, including highschool, undergraduate, MSc/MA, junior and senior PhD students, in getting familiar with conducting and presenting their research.
 
 <br>
-We will update this site when latest information are available (Update time: 2025.12.11).
+We will update this site when new information is available (Last update: 2025.12.11).
 
-Contact us via email at [acl.2025.srw@gmail.com](mailto:acl.2026.srw@gmail.com) for any questions.
+Contact us via email at [acl.2026.srw@gmail.com](mailto:acl.2026.srw@gmail.com) for any questions.
+
 Get connected with us on [Twitter](https://twitter.com/acl_srw).
 
 <!-- Note below is outdated, and we will update soon! -->
