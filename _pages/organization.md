@@ -11,7 +11,7 @@ order : 1
 
 <div class="committee-grid">
 {% include committee-member.html name="Juan Diego Rodriguez" picture="/images/people/JuanDiego.jpg" site="" institution="University of Texas at Austin" email = "juand-r@utexas.edu" %}
-{% include committee-member.html name="Santosh T.Y.S.S" picture="/images/people/Santosh.jpg" site="" institution="Technical University of Munich" email = "santoshtyss@gmail.com" %}
+{% include committee-member.html name="Santosh T.Y.S.S" picture="/images/people/Santosh.jpg" site="" institution="Technical University of Munich & Amazon" email = "santoshtyss@gmail.com" %}
 {% include committee-member.html name="Ona de Gibert" picture="/images/people/Ona.jpg" site="" institution="University of Helsinki" email = "ona.degibert@helsinki.fi" %}
 </div>
 
