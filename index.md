@@ -6,7 +6,7 @@ order: 1
 ---
 
 
-<!-- button class="btn btn-success" onclick="window.location.href='/mentoring';">Submit your paper draft to our mentorshop program by Feb 1!</button -->
+<button class="btn btn-success" onclick="window.location.href='/mentoring';">Submit your paper draft to our mentorshop program by Feb 4!</button>
 
 # Welcome to ACL SRW 2026!
 The ACL 2025 Student Research Workshop (SRW) will be held in conjunction with [ACL 2026](https://2026.aclweb.org/) in San Diego, CA, from July 2 - 7, 2026. It is a forum to bring together students investigating various areas of Computational Linguistics, Natural Language Processing and Machine Learning. The workshop provides an excellent opportunity for participants to present their work and to receive mentorship and valuable feedback from the international research community.

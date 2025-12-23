@@ -6,9 +6,9 @@ order : 1
 ---
 
 # Author Guidelines
-The ACL has released policies for submission, review and citation. Accompanying these are guidelines for authors. ACL SRW 2025 will adhere to these policies and guidelines. Submissions should:
+The ACL has released policies for submission, review and citation. Accompanying these are guidelines for authors. ACL SRW 2026 will adhere to these policies and guidelines. Submissions should:
 
-- __Be relevant__: Submissions to ACL SRW 2025 should be relevant to the audience.
+- __Be relevant__: Submissions to ACL SRW 2026 should be relevant to the audience.
 - __Be original__: The content of submissions to ACL SRW 2025 (the ideas, the findings, the results and the words) should be original; that is, should not have been published (or be accepted for publication) in another refereed, archival form (such as a book, a journal, or a conference proceedings). Authors are referred to the ACL author guidelines for additional information on what constitutes existing publication.
 
 Authors may present preliminary versions of their work in other venues that are not refereed and/or not archival (e.g. course reports, theses, non-archival workshops, or on preprint servers such as arXiv.org). Authors should list all such previous presentations in the submission form. This will help the workshop chairs if questions of originality arise.
@@ -67,13 +67,26 @@ Papers should not refer, for further detail, to documents, code or data resource
 
 Authors are required to honour the ethical code set out in the ACM Code of Ethics. The consideration of the ethical impact of our research, use of data, and potential applications of our work has always been an important consideration, and as artificial intelligence is becoming more mainstream, these issues are increasingly pertinent. We ask that all authors read the code, and ensure that their work is conformant to this code. We reserve the right to reject papers on ethical grounds, where the authors are judged to have operated counter to the code of ethics, or have inadequately addressed legitimate ethical concerns with their work
 
+## ACL Co-ordinated Disclosure Policy
+If your paper describes methods for eliciting harmful or unintended behavior from models or technologies (e.g., exposing vulnerabilities, jailbreaks, or misuse scenarios), you must follow ACL’s Co-ordinated Disclosure Policy. This requires authors to:
+- Contact the developers of the affected system(s) before submission.
+- Wait at least 30 days after initial contact before publicly disclosing the vulnerability (e.g., through preprints or publications).
+- Document the disclosure process in the Ethical Considerations section of your paper, including:
+  (1) Who you contacted,
+  (2) How you contacted them,
+  (3) Dates of contact and responses.
+
+This policy only applies to cases involving intentional adversarial techniques. Issues that occur "out of the box" without targeted manipulation are not subject to the policy.
+
+For full details, refer to the [official ACL Publication Ethics page](https://www.aclweb.org/adminwiki/index.php/ACL_Policy_on_Publication_Ethics#Co-ordinated_disclosure).
+
 ## Follow style and format guidelines
 
 The style guidelines are specified under Submission Requirements in the [Call for Papers](https://acl2025-srw.github.io/cfp).  
 
 ## Paper Submission
 
-Submission link will be open later! 
-<!-- for the workshop is now available [here](https://softconf.com/acl2023/srw-submissions) -->
-<!-- Submission is electronic, using the SoftConf conference management. The submission site will be available soon. at [OpenReview](https://openreview.net/group?id=aclweb.org/NAACL/2022/Workshop/Student_Research&referrer=%5BHomepage%5D(%2F))-->
+Pre-submission mentorship link is now available here: [Pre-submission mentorship program](https://openreview.net/group?id=aclweb.org/ACL/2026/SRW_Pre-submission_Mentorship)
+Direct Submission link is now available here: [Direct Submission]( https://openreview.net/group?id=aclweb.org/ACL/2026/SRW_Direct_Submission)
+ARR Commitment link is now available here: [ARR Commitment](https://openreview.net/group?id=aclweb.org/ACL/2026/SRW_ARR_Commitment)
 
