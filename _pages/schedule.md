@@ -8,6 +8,9 @@ published: false
 
 # Workshop Program
 
+Coming soon!
+<!--
+
 The workshop will take place on **Monday, July 28** and **Tuesday, July 29** at the [Austria Center Vienna](https://www.acv.at/en/). The program consists of three sessions, featuring oral and poster presentations.
 
 ---
@@ -87,3 +90,4 @@ This is the final session of the workshop, also featuring **in-person** and **vi
 ---
 
 **Note:** To ensure a smooth presentation experience, all presenters are encouraged to review the [Presenter’s Guide](https://docs.google.com/presentation/d/1PJOyaKKAezi_YFpaTS-nHv4xacgcVswnukFgc6ZY_QM/edit?usp=sharing).
+>
