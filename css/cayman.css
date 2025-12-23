@@ -266,7 +266,7 @@ a:hover { text-decoration: underline; }
   margin: 0;
   font-size: 1.1rem;
   font-weight: 600;
-  color: #0f172a;
+  color: #159957;
 }
 
 .committee-member__name a {
@@ -291,17 +291,6 @@ a:hover { text-decoration: underline; }
   margin: 0;
   color: #475569;
   font-size: 0.95rem;
-}
-
-.committee-member__email {
-  font-size: 0.9rem;
-  color: #2563eb;
-  text-decoration: none;
-}
-
-.committee-member__email:hover,
-.committee-member__email:focus {
-  text-decoration: underline;
 }
 
 @media screen and (max-width: 30em) {

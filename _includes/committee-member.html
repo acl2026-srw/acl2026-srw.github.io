@@ -4,10 +4,10 @@
   </div>
   <div class="committee-member__body">
     <p class="committee-member__name" itemprop="name">
-      {% if include.site and include.site != "" %}
-        <a href="{{ include.site }}" target="_blank" rel="noopener">{{ include.name }}</a>
-      {% elsif include.email and include.email != "" %}
+      {% if include.email and include.email != "" %}
         <a href="mailto:{{ include.email }}">{{ include.name }}</a>
+      {% elsif include.site and include.site != "" %}
+        <a href="{{ include.site }}" target="_blank" rel="noopener">{{ include.name }}</a>
       {% else %}
         {{ include.name }}
       {% endif %}
@@ -16,8 +16,5 @@
       {% endif %}
     </p>
     <p class="committee-member__affiliation" itemprop="affiliation">{{ include.institution }}</p>
-    {% if include.email and include.email != "" %}
-      <a class="committee-member__email" href="mailto:{{ include.email }}">{{ include.email }}</a>
-    {% endif %}
   </div>
 </div>
