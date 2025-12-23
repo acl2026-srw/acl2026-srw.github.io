@@ -10,36 +10,44 @@ order : 1
 
 Student Research Workshop co-located with ACL 2026 in San Diego, US.
 
-Main Conference: July 2 to 7, 2026
 
-Coming soon!
+## Important Dates
 
+- Pre-Submission Mentorship Deadline: February 4, 2026
+- Pre-Submission Mentorship Feedback: February 25, 2026
+- Direct Submission Deadline: March 18, 2026
+- ARR Commitment Deadline: April 15, 2026
+- Acceptance Notification: April 24, 2026
+- Camera ready: May 8, 2026
+- Grant Application Submission: May 8, 2026
+- Grant Application Notification: May 20, 2026
+- ACL 2026 Conference Dates: July 5-7, 2026
 
-<!--***Paper Submission Deadline: May 18th, 2025***
+All deadlines are 11:59PM UTC-12:00 ("anywhere on Earth")
 
-Submission link for the workshop is now available [here](https://openreview.net/group?id=aclweb.org/ACL/2025/SRW&referrer=%5BHomepage%5D(%2F)#tab-recent-activity)
+Submission link for the pre-submission mentorship program is now available [here](https://openreview.net/group?id=aclweb.org/ACL/2026/SRW_Pre-submission_Mentorship)
 
 ## About the Student Research Workshop
 
-The ACL 2025 Student Research Workshop (SRW) is a forum to bring together students investigating various areas of Computational Linguistics, Natural Language Processing and Machine Learning. The workshop provides an excellent opportunity for participants to present their work and to receive mentorship and valuable feedback from the international research community.
+The ACL 2026 Student Research Workshop (SRW) is a forum to bring together students investigating various areas of Computational Linguistics, Natural Language Processing and Machine Learning. The workshop provides an excellent opportunity for participants to present their work and to receive mentorship and valuable feedback from the international research community.
 
 The workshop’s goal is to aid students at multiple stages of their education, including highschool, undergraduate, MSc/MA, junior and senior PhD students, in getting familiar with conducting and presenting their research.
 
+<!--
 We are recruiting mentors to give feedback and guidance on student papers! (It will begin in May, 2025,
 More Information [here](https://acl2025-srw.github.io/mentoring).) Please fill out the [form](https://docs.google.com/forms/d/e/1FAIpQLScX5CVH3o5_cSvuJvNZJADX1_Mw6PeOu5Mm6tLifQCBNHHZcA/viewform) if you are interested!
 
 Also, we are seeking reviewers. If you are interested, please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfHqPd2XH23iTxnvkNA5nNamKVbtQSDF-ZhTbKZvM1ZKVSXrA/viewform).
-
-Check our [website](https://acl2025-srw.github.io/) and follow us on [X/Twitter](https://x.com/acl_srw) for the latest updates!
+ -->
 
 ## General Rules for Submission
 
 We invite papers in two different categories:
 
-- Thesis Proposals: This category is appropriate for PhD students who have decided on a thesis topic and wish to get feedback on their proposal and broader ideas for their continuing work.
-- Research Papers: Papers in this category can describe completed work, or work in progress with preliminary results. For these papers, the first author **MUST BE** a current student (high school, graduate, or undergraduate). Topics of interest for the SRW are the same as for the main <a href="https://2025.aclweb.org/calls/main_conference_papers/">ACL 2025 conference</a>.
+* **Thesis Proposals**: This category is appropriate for PhD students who have decided on a thesis topic and wish to get feedback on their proposal and broader ideas for their continuing work.
+* **Research Papers**: Papers in this category can describe completed work, or work in progress with preliminary results. For these papers, the first author **MUST BE** a current student (high school, graduate, or undergraduate). Topics of interest for the SRW are the same as for the main <a href="https://2026.aclweb.org/calls/main_conference_papers/">ACL 2026 conference</a>.
 
-Submissions (in both categories) may be archival or non-archival, based on the wish of the authors. All archival papers will be published in the ACL 2025 SRW Proceedings. Non-archival papers may be submitted to any venue in the future except for another SRW. <u>Please note that submissions marked as non-archival cannot be changed to archival after acceptance</u>.
+Submissions (in both categories) may be archival or non-archival, based on the wish of the authors. All archival papers will be published in the ACL 2026 SRW Proceedings. Non-archival papers may be submitted to any venue in the future except for another SRW. <u>Please note that submissions marked as non-archival cannot be changed to archival after acceptance</u>.
 
 ## Why Submit to ACL SRW?
 
@@ -50,37 +58,6 @@ There are many good reasons to submit to the ACL SRW, such as:
 - Explorative Studies: We encourage the submission of studies with positive and negative results providing insights on why and in which scenarios a particular method succeeds and fails.
 
 All accepted papers and thesis proposals will be presented either as oral presentations or during poster sessions, which will give students an opportunity to interact with and to present their work to a large and diverse audience, including top researchers in the field and assigned mentors.
-
-## Pre-Submission Mentorship Program
-
-The SRW offers students the opportunity to receive feedback prior to submitting their work for review. The goal of the pre-submission mentorship program is to improve the quality of writing and presentation of the student's work, not to critique the work itself. Participation is optional but encouraged. The pre-submission mentorship is not anonymous.
-
-Students wishing to participate in the pre-submission mentorship must submit their paper draft by filling this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSecnxBYtvjJnZ2NdvAxB84q6RRBK97pbUXsaj14AdOC71ZLTA/viewform?pli=1) by March 27, 2025.
-
-Note that even though the mentoring is not done anonymously, the paper needs to be anonymized. We will check for the formality of the paper including formatting before we match it with mentors.
-
-The participants will be assigned a mentor who will review and will provide feedback within four weeks. This mentor will not be the same person who will review the final submission. The feedback will be in the form of guidelines and suggestions to improve the overall writing, which should ideally be incorporated before the actual submission deadline.
-
-You CAN submit a paper at the SRW submission deadline even if you did not participate in the pre-submission mentoring. If you did submit a draft for pre-submission mentoring, you will need to make a new submission for the final version of the paper. The submission website will have separate tracks for pre-submission mentorship and the final paper submission.
-
-
-## Important Dates
-
-- Pre-submission mentoring deadline: March 27, 2025
-
-- Pre-submission feedback: May 1, 2025
-
-- Paper submission deadline: May 18, 2025
-
-- Review deadline: June 6, 2025
-
-- Acceptance notifications: June 21, 2025
-
-- Camera-ready deadline: July 1, 2025
-
-- ACL 2025 conference dates: July 27-Aug 1st, 2025
-
-All deadlines are 11:59PM UTC-12:00 ("anywhere on Earth")
 
 ## Submission Requirements
 
@@ -120,30 +97,19 @@ The SRW invites papers on topics related to computational linguistics, including
 - Syntax: Tagging, Chunking, and Parsing
 - Thesis Proposals
 
-## ACL Co-ordinated Disclosure Policy
-If your paper describes methods for eliciting harmful or unintended behavior from models or technologies (e.g., exposing vulnerabilities, jailbreaks, or misuse scenarios), you must follow ACL’s Co-ordinated Disclosure Policy. This requires authors to:
-- Contact the developers of the affected system(s) before submission.
-- Wait at least 30 days after initial contact before publicly disclosing the vulnerability (e.g., through preprints or publications).
-- Document the disclosure process in the Ethical Considerations section of your paper, including:
-  (1) Who you contacted,
-  (2) How you contacted them,
-  (3) Dates of contact and responses.
+## Pre-Submission Mentorship Program
 
-This policy only applies to cases involving intentional adversarial techniques. Issues that occur "out of the box" without targeted manipulation are not subject to the policy.
+The SRW offers students the opportunity to receive feedback prior to submitting their work for review. The goal of the pre-submission mentorship program is to improve the quality of writing and presentation of the student's work, not to critique the work itself. Participation is optional but encouraged. The pre-submission mentorship is not anonymous.
 
-For full details, refer to the [official ACL Publication Ethics page](https://www.aclweb.org/adminwiki/index.php/ACL_Policy_on_Publication_Ethics#Co-ordinated_disclosure).
+Students wishing to participate in the pre-submission mentorship must submit their paper draft through [OpenReview](https://openreview.net/group?id=aclweb.org/ACL/2026/SRW_Pre-submission_Mentorship) by February 4th, 2026.
 
-## Grants
+Note that even though the mentoring is not done anonymously, the paper needs to be anonymized. We will check for the formality of the paper including formatting before we match it with mentors.
 
-We expect to have grants to offset some portion of students' travel, conference registration, and accommodation expenses. Further details will be posted on the SRW website.
-To contact the organizers of the workshop, please email us at: [acl.2025.srw@gmail.com](mailto:acl.2025.srw@gmail.com)
+The participants will be assigned a mentor who will review and will provide feedback within four weeks. This mentor will not be the same person who will review the final submission. The feedback will be in the form of guidelines and suggestions to improve the overall writing, which should ideally be incorporated before the actual submission deadline.
 
-## Visa
+You CAN submit a paper at the SRW submission deadline even if you did not participate in the pre-submission mentoring. If you did submit a draft for pre-submission mentoring, you will need to make a new submission for the final version of the paper. The submission website will have separate tracks for pre-submission mentorship and the final paper submission.
 
-For visa information please check the [ACL 2025 page](https://2025.aclweb.org/venue/visa/).
-
-## Student Research Workshop Chairs
-
-- [Zhu Liu](https://juniperliuzhu.netlify.app/), Tsinghua University (China)
-- [Mingyang Wang](https://mingyang-wang26.github.io/), LMU Munich (Germany)
-- [Jin Zhao](https://jinzhao3611.github.io/), Brandeis University (USA)-->
+## How to submit
+There are two routes for paper submission:
+* **Direct submission**: Papers should be submitted through openreview using the following link: [Direct Submission](https://openreview.net/group?id=aclweb.org/ACL/2026/SRW_Direct_Submission). Each paper will receive a minimum of three reviews. The review process will be double-blind. Reviewers will not see authors, authors will not see reviewers. Reviews and submissions will not be made publicly visible.
+* **ACL Rolling Review (ARR) Papers**: Papers which have already been reviewed through the ACL Rolling Review (ARR) system can be committed to ACL 2026. These papers will not be re-reviewed. Program Chairs will make acceptance decisions based on the ARR reviews and meta-reviews. ARR papers should be committed through openreview using the following link: [ARR Submission](https://openreview.net/group?id=aclweb.org/ACL/2026/SRW_ARR_Commitment). When making a new submission, you will be able to specify the details of the ARR paper that you want to commit, including the openreview ID of your paper.
