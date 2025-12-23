@@ -18,8 +18,6 @@ We will update this site when new information is available (Last update: 2026.12
 
 Contact us via email at [acl.2026.srw@gmail.com](mailto:acl.2026.srw@gmail.com) for any questions.
 
-Get connected with us on [Twitter](https://twitter.com/acl_srw).
-
 <!-- Note below is outdated, and we will update soon! -->
 <!-- ----
 !! -- Pre-submission mentorship applications are open now!
