@@ -7,16 +7,17 @@
     {% include page-header.html %}
 
     {% capture nowdate %}{{'now' | date: '%s' | minus: 86400 }}{% endcapture %}
-    {% capture presubmen %}{{'Mar 27 2025' | date: '%s'}}{% endcapture %}
-    {% capture presubfeed %}{{'May 1 2025' | date: '%s'}}{% endcapture %}
-    {% capture sub %}{{'May 18 2025' | date: '%s'}}{% endcapture %}
-    {% capture revdue %}{{'June 6 2025' | date: '%s'}}{% endcapture %}
-    {% capture not %}{{'Jun 21 2025' | date: '%s'}}{% endcapture %}
-    {% capture cam %}{{'Jul 1 2025' | date: '%s'}}{% endcapture %}
-    {% capture workshop %}{{'Jul 28 - 30 2025' | date: '%s'}}{% endcapture %}
+    {% capture presubmen %}{{'Feb 4 2026' | date: '%s'}}{% endcapture %}
+    {% capture presubfeed %}{{'Feb 25 2026' | date: '%s'}}{% endcapture %}
+    {% capture sub %}{{'Mar 18 2026' | date: '%s'}}{% endcapture %}
+    {% capture arrcommit %}{{'Apr 15 2026' | date: '%s'}}{% endcapture %}
+    {% capture not %}{{'Apr 24 2026' | date: '%s'}}{% endcapture %}
+    {% capture grantapp %}{{'May 8 2026' | date: '%s'}}{% endcapture %}
+    {% capture cam %}{{'May 8 2026' | date: '%s'}}{% endcapture %}
+    {% capture grantnot %}{{'May 20 2026' | date: '%s'}}{% endcapture %}
+    {% capture workshop %}{{'Jul 5 - 7 2026' | date: '%s'}}{% endcapture %}
 
     <section class="main-content">
-      <!--
       <div id="side-table-wrapper" style="float:right; width:310px; font-size: small">
         <h4 id="side-table-header">Important Dates</h4>
         <table id="important-dates" class="table table-condensed">
@@ -47,12 +48,12 @@
                 {{ sub | date: "%b %-d (%a), %Y" }}</font>
               </td>
             </tr>
-            <tr><td>Reviews due</td>
+            <tr><td>ARR commitment deadline</td>
               <td>
-                {% if revdue < nowdate %} <strike> <font color="grey">{% endif %}
-                {% assign datediff = revdue | minus: nowdate | divided_by: 60 | divided_by: 60 | divided_by: 24 %}
+                {% if arrcommit < nowdate %} <strike> <font color="grey">{% endif %}
+                {% assign datediff = arrcommit | minus: nowdate | divided_by: 60 | divided_by: 60 | divided_by: 24 %}
                 {% if datediff < 15  and datediff > -1 %} </font><font color="grey"> {% endif %}
-                {{ revdue | date: "%b %-d (%a), %Y" }}</font>
+                {{ arrcommit | date: "%b %-d (%a), %Y" }}</font>
               </td>
             </tr>
             <tr><td>Acceptance notification</td>
@@ -71,8 +72,24 @@
                 {{ cam | date: "%b %-d (%a), %Y" }} </font>
               </td>
             </tr> 
+            <tr><td>Grant application submission due</td>
+              <td>
+                {% if grantapp < nowdate %} <strike> <font color="grey">{% endif %}
+                {% assign datediff = grantapp | minus: nowdate | divided_by: 60 | divided_by: 60 | divided_by: 24 %}
+                {% if datediff < 13  and datediff > -1 %} </font><font color="red"> {% endif %}
+                {{ grantapp | date: "%b %-d (%a), %Y" }} </font>
+              </td>
+            </tr>
+            <tr><td>Grant application notification</td>
+              <td>
+                {% if grantnot < nowdate %} <strike> <font color="grey">{% endif %}
+                {% assign datediff = grantnot | minus: nowdate | divided_by: 60 | divided_by: 60 | divided_by: 24 %}
+                {% if datediff < 13  and datediff > -1 %} </font><font color="red"> {% endif %}
+                {{ grantnot | date: "%b %-d (%a), %Y" }} </font>
+              </td>
+            </tr>  
             <tr><td>Workshop</td>
-              <td>July 27-Aug 1st (With Main Conference)</td>
+              <td>July 5-7 (With Main Conference)</td>
             </tr>
             <tr></tr> 
             
