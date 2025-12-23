@@ -1,0 +1,35 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+import '../styles/anchor.css';
+const pageTitle = "IJCNLP-AACL 2025 SRW";
+const { frontmatter } = Astro.props;
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{pageTitle}</title>
+  </head>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document
+        .querySelectorAll('.markdown h1[id], .markdown h2[id], .markdown h3[id], .markdown h4[id], .markdown h5[id], .markdown h6[id]')
+        .forEach(heading => {
+          heading.addEventListener('click', () => {
+            history.pushState(null, '', `#${heading.id}`);
+          });
+        });
+    });
+  </script>
+  <body>
+    <Header />
+    <main class="markdown margin-header">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

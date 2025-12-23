@@ -6,211 +6,48 @@ order : 1
 ---
 # Organization
 
-### Student Chairs
-- [Zhu Liu](https://juniperliuzhu.netlify.app/), Tsinghua University, China
-- [Mingyang Wang](https://mingyang-wang26.github.io/), LMU Munich, Germany
-- [Jin Zhao](https://jinzhao3611.github.io/), Brandeis University, USA
+## Student Chairs
 
-### Faculty Advisors 
-- [Lea Frermann](https://www.frermann.de/), University of Melbourne, AU
-- [Daniel Hershcovich](https://danielhers.github.io/), University of Copenhagen, DK
-- [Tristan Miller](https://logological.org/), University of Manitoba, CA
+<OrganizerGrid cols={3}>
+  <OrganizerCard
+    image="/images/people/JuanDiego.jpg"
+    alt="Juan Diego Rodriguez"
+    name="Juan Diego Rodriguez"
+    affiliation="University of Texas at Austin"
+  />
+  <OrganizerCard
+    image="/images/people/santosh.jpg"
+    alt="Santosh T.Y.S.S"
+    name="Santosh T.Y.S.S"
+    affiliation="Technical University of Munich"
+  />
+  <OrganizerCard
+    image="/images/people/Ona.jpg"
+    alt="Ona de Gibert"
+    name="Ona de Gibert"
+    affiliation="University of Helsinki"
+  />
+</OrganizerGrid>
 
-<!-- ### Mentors for Student Participants
-Thanks again to all the mentors who helped out! -->
+## Faculty Advisors
 
-<!-- - Naomi Saphra
-- Rob van der Goot
-- Sweta Agrawal
-- Fernando Alva-Manchego
-- Maria Barrett
-- Valerio Basile
-- Greg Durrett
-- Agnieszka Falenska
-- Biaoyan Fang
-- Marco Gaido
-- Dan Goldwasser
-- Shujian Huang
-- Sujay Kumar Jauhar
-- Parisa Kordjamshidi
-- Fajri Koto
-- Junyi Jessy Li
-- Jindřich Libovický
-- Bruno Martins
-- Shubhanshu Mishra
-- Mel Mistica
-- Vincent Ng
-- Shruti Rijhwani
-- Abulhair Saparov
-- Tatjana Scheffler
-- Priyanka Sen
-- Vered Shwartz
-- Hanna Suominen
-- Mihai Surdeanu
-- Bonnie Webber
-- Zheng Yuan
-- Lea Frermann
-- Shikha Bordia
-- Marco Basaldella -->
+<!--
+<OrganizerGrid cols={2}>
+  <OrganizerCard
+    image="/images/organizers/xiting.jpg"
+    alt="Xiting Wang"
+    name="Xiting Wang"
+    affiliation="Renmin University"
+  />
+  <OrganizerCard
+    image="/images/organizers/kawahara.jpeg"
+    alt="Daisuke Kawahara"
+    name="Daisuke Kawahara"
+    affiliation="Waseda University"
+  />
+</OrganizerGrid>
+-->
 
+## Contact
 
-<!-- **Submission Link for Presubmission Mentorship** - [SoftConf](https://softconf.com/acl3/srw) -->
-
-<!-- ### Program Committee  -->
-
-<!-- - Omri Abend
-- Youssef Al Hariri
-- Parsa Bagherzadeh
-- Ahsaas Bajaj
-- Jonas Belouadi
-- Shikha Bordia
-- Agostina Calabrese
-- Jon Ander Campos
-- Silvia Casola
-- Hyundong Cho
-- Chris Develder
-- Gabriel Doyle
-- Ritam Dutt
-- Francesca Franzon
-- Yoshinari Fujinuma
-- Aina Garí Soler
-- Jonas Groschwitz
-- Ivan Habernal
-- Dirk Hovy
-- Tunazzina Islam
-- Labiba Jahan
-- Jyoti Jha
-- Abhinav Joshi
-- Patrick Kahardipraja
-- Fajri Koto
-- Maria Kunilovskaya
-- Alexandra Lavrentovich
-- Manling Li
-- Robert Litschko
-- Chunhua Liu
-- Robert L Logan IV
-- Nicholas Lourie
-- Qing Lyu
-- Arya D. McCarthy
-- Tsvetomila Mihaylova
-- Shubhanshu Mishra
-- Amita Misra
-- Masaaki Nagata
-- Nihal V. Nayak
-- Mariana Neves
-- Vincent Nguyen
-- Kiet Nguyen
-- Maria Leonor Pacheco
-- Ben Peters
-- Adithya Pratapa
-- Hossein Rouhizadeh
-- Michael Sejr Schlichtkrull
-- Mayank Soni
-- Cesare Spinoso-Di Piano
-- Marija Stanojevic
-- Dage Särg
-- Shabnam Tafreshi
-- Hao Tan
-- Thinh Hung Truong
-- Sowmya Vajjala
-- Andrea Varga
-- Francielle Vargas
-- Zhiruo Wang
-- Steven Wilson
-- Wenting Ye
-- Hiyori Yoshikawa
-- Zenan Zhai
-- Mike Zhang
-- Zixuan Zhang
-- Rongxin Zhu
-- Ibrahim Abu Farha
-- Sedeeq Al-khazraji
-- Abeer Aldayel
-- Begoña Altuna
-- Fernando Alva-Manchego
-- Evelin Amorim
-- Tatiana Anikina
-- Valerio Basile
-- Tim Baumgärtner
-- Rachel Bawden
-- Shabnam Behzad
-- Uri Berger
-- Gabriel Bernier-Colborne
-- Terra Blevins
-- Ronald Cardenas
-- Alessandra Teresa Cignarella
-- Xiang Dai
-- Alok Debnath
-- Bonaventure F. P. Dossou
-- Micha Elsner
-- Neele Falk
-- Antonio Farinhas
-- Iker García-Ferrero
-- Esam Ghaleb
-- Anmol Goel
-- Matt Grenander
-- Xudong Han
-- Dieuwke Hupkes
-- Joseph Marvin Imperial
-- Nitish Joshi
-- Ehsan Kamalloo
-- Haoqiang Kang
-- Sarvnaz Karimi
-- Borhan Kazimipour
-- Anirudh Vishal Khatry
-- Prashant Kodali
-- Mamoru Komachi
-- Mascha Kurpicz-Briki
-- Celine Lee
-- Richard Leibbrandt
-- Christoph Leiter
-- Jasy Suet Yan Liew
-- Zheng Wei Lim
-- Lucy Lin
-- Tatiana Litvinova
-- Lara Martin
-- Sandeep Mathias
-- Nikhil Mehta
-- William Merrill
-- Gosse Minnema
-- Adib Mosharrof
-- Aitor Ormazabal
-- Artemis Panagopoulou
-- Sara Papi
-- Tanmay Parekh
-- Ian Porada
-- YIYUAN PU
-- Rajkumar Pujari
-- Yusu Qian
-- Sunny Rai
-- Surangika Ranathunga
-- Hayley Ross
-- Shamik Roy
-- Andreas Rücklé
-- Philipp Sadler
-- Oscar Sainz
-- Sashank Santhanam
-- Abulhair Saparov
-- Ryohei Sasano
-- Tatjana Scheffler
-- Sina Sheikholeslami
-- Chenglei Si
-- Tejas Srinivasan
-- Vivek Srivastava
-- Ashima Suvarna
-- Stan Szpakowicz
-- Koichi Takeda
-- Zeerak Talat
-- Evgeniia Tokarchuk
-- Saranya Venkatraman
-- Takashi Wada
-- Yuxia Wang
-- Jun Wang
-- Zhuohan Xie
-- Rui Xing
-- Yue Yang
-- ran zhang
-- Zheng Zhao
-- Danna Zheng
-- Zhong Zhou
-- Elena Zotova  -->
+If you have any questions, please contact the organizers via email: [acl.2026.srw@gmail.com](mailto:acl.2026.srw@gmail.com).
