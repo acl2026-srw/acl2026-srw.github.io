@@ -8,7 +8,8 @@ order : 1
 #### Q: Can I submit my non-archival accepted paper in other venues?
 __A:__ Yes, as long as the other venues follow a similar double-submission policy. We refer authors to the detailed requirements outlined in our [Author Guidelines]((https://acl2025-srw.github.io/author)).
 
-For papers submitted to the ACL main conference, please note that according to the ACL policy, authors are not permitted to submit the same work to another archival venue (such as SRW) while the paper is under review, committed, or awaiting a decision. See more [here](https://aclrollingreview.org/organizers).
+#### Q: Double submission: where should it be mentioned that the paper will be submitted to other conference for reviewing?
+__A:__ For papers submitted to the ACL main conference, please note that according to the ACL policy, authors are not permitted to submit the same work to another archival venue (such as SRW) while the paper is under review, committed, or awaiting a decision. See more [here](https://aclrollingreview.org/organizers).
 
 #### Q: If accepted, can a paper be published in the proceedings, even if it the student cannot take part at the workshop?
 __A:__ The ACL organizing team will attempt to provide travel grants to authors of all accepted papers. However, if things still don't work out, we can discuss remote presentation options should your paper be accepted.
@@ -36,6 +37,15 @@ Yes, a systematic literature survey is suitable for submission to the ACL SRW, p
 
 #### Q: Is a researcher eligible to submit their work to ACL SRW if they graduated before the submission date but conducted the research during their PhD and remain affiliated with their university?
 No, first authors must be current students at the time of submission. The ACL SRW is intended exclusively for current students, so graduates are not eligible to submit even if the research was completed during their PhD studies.
+
+#### Q: If a paper has been reviewed by ARR in May or July, can it be committed to ACL 2026?
+A. Yes. The paper can be committed to ACL SRW 2026.
+
+#### Q: If I have a paper that has been reviewed by different rounds of ARR, do I have to use the latest ARR review for commitment to ACL SRW 2026, or can I choose to commit the reviews from a previous round?
+__A:__ Authors are free to choose which round ARR submission they wish to commit
+
+#### Q: In case the student author is unable to attend due to university examinations, is it possible for the equally contributing other author to apply for the travel grant?
+__A:__ Yes.
 
 Please contact us at [acl.2026.srw@gmail.com](mailto:acl.2026.srw@gmail.com) if you have any other questions.
 
