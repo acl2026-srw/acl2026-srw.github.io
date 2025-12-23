@@ -6,6 +6,7 @@
   <body>
     {% include page-header.html %}
 
+    <section class="main-content">
     <!--
     {% capture nowdate %}{{'now' | date: '%s' | minus: 86400 }}{% endcapture %}
     {% capture presubmen %}{{'Feb 4 2026' | date: '%s'}}{% endcapture %}
@@ -18,7 +19,6 @@
     {% capture grantnot %}{{'May 20 2026' | date: '%s'}}{% endcapture %}
     {% capture workshop %}{{'Jul 5 - 7 2026' | date: '%s'}}{% endcapture %}
 
-    <section class="main-content">
       <div id="side-table-wrapper" style="float:right; width:310px; font-size: small">
         <h4 id="side-table-header">Important Dates</h4>
         <table id="important-dates" class="table table-condensed">
@@ -121,6 +121,7 @@
         <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
 
       </div>
+    -->
       <!-- ===================================== -->
       {{ content }}
 
