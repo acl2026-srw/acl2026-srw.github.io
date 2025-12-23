@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_nodates
 title: "Organization"
 permalink: /organization
 order : 1
