@@ -16,7 +16,7 @@ The workshop’s goal is to aid students at multiple stages of their education, 
 <br>
 We will update this site when new information is available (Last update: 2026.12.23).
 
-Contact us via email at [acl.2026.srw@gmail.com](mailto:acl.2026.srw@gmail.com) for any questions.
+Contact us via email at [acl2026srwchairs@gmail.com](mailto:acl2026srwchairs@gmail.com) for any questions.
 
 <!-- Note below is outdated, and we will update soon! -->
 <!-- ----

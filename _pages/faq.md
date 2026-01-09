@@ -47,5 +47,5 @@ __A:__ Authors are free to choose which round ARR submission they wish to commit
 #### Q: In case the student author is unable to attend due to university examinations, is it possible for the equally contributing other author to apply for the travel grant?
 __A:__ Yes.
 
-Please contact us at [acl.2026.srw@gmail.com](mailto:acl.2026.srw@gmail.com) if you have any other questions.
+Please contact us at [acl2026srwchairs@gmail.com](mailto:acl2026srwchairs@gmail.com) if you have any other questions.
 

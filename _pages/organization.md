@@ -26,4 +26,4 @@ order : 1
 
 ## Contact
 
-If you have any questions, please contact the organizers via email: [acl.2026.srw@gmail.com](mailto:acl.2026.srw@gmail.com).
+If you have any questions, please contact the organizers via email: [acl2026srwchairs@gmail.com](mailto:acl2026srwchairs@gmail.com).
