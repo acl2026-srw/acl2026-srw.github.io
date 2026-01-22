@@ -35,9 +35,6 @@ Yes! Please make sure you submit your work again to the workshop in order to hav
 #### Q: Can a systematic literature survey conducted by a master's student be submitted to the ACL Student Research Workshop (SRW)?
 Yes, a systematic literature survey is suitable for submission to the ACL SRW, provided the master's student is listed as the first author.
 
-#### Q: Is a researcher eligible to submit their work to ACL SRW if they graduated before the submission date but conducted the research during their PhD and remain affiliated with their university?
-No, first authors must be current students at the time of submission. The ACL SRW is intended exclusively for current students, so graduates are not eligible to submit even if the research was completed during their PhD studies.
-
 #### Q: If a paper has been reviewed by ARR in May or July, can it be committed to ACL 2026?
 A. Yes. The paper can be committed to ACL SRW 2026.
 
