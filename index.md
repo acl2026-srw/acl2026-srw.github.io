@@ -5,9 +5,9 @@ permalink: /
 order: 1
 ---
 
-<a href="https://openreview.net/group?id=aclweb.org/ACL/2026/SRW_Direct_Submission" 
+<a href="https://openreview.net/group?id=aclweb.org/ACL/2026/SRW_ARR_Commitment" 
    class="btn btn-success" target="_blank" rel="noopener">
-   Submit your paper to our workshop by March 18!
+   Commit your ARR paper to our workshop by April 15!
 </a>
 
 # Welcome to ACL SRW 2026!
@@ -16,7 +16,7 @@ The ACL 2025 Student Research Workshop (SRW) will be held in conjunction with [A
 The workshop’s goal is to aid students at multiple stages of their education, including highschool, undergraduate, MSc/MA, junior and senior PhD students, in getting familiar with conducting and presenting their research.
 
 <br>
-We will update this site when new information is available (Last update: 2026.03.04).
+We will update this site when new information is available (Last update: 2026.03.19).
 
 Contact us via email at [acl2026srwchairs@gmail.com](mailto:acl2026srwchairs@gmail.com) for any questions.
 
@@ -53,11 +53,14 @@ June 21, 2025: All the reviews have been returned to the authors.
 June 6, 2025: Filling this [form](https://cryptpad.fr/form/#/2/form/view/IrfF8hdarp0UwDMlrIApSUjPIo5XoyzsBLRHIPkhMIU/) for obtaining a VISA in advance, more [info](https://2025.aclweb.org/visa/) here.
 
 May 24, 2025: [Grant Application Guideline](https://acl2025-srw.github.io/travel_grant) has been updated -->
+
+March 19, 2026: The direct submission deadline has passed! We recieved 379 submissions :rocket: 
+
 March 4, 2026: The direct submission site has been open! Submit your work [here](https://openreview.net/group?id=aclweb.org/ACL/2026/SRW_Direct_Submission).
 
 Feb 26, 2026: Feedback for the pre-submission mentorship has been sent to all authors.
 
-Feb 13, 2026: The pre-submission mentorship deadline has passed! We revieved 113 submissions :)
+Feb 13, 2026: The pre-submission mentorship deadline has passed! We recieved 113 submissions :)
 
 Dec 23, 2025: Call for Papers is out!
 
