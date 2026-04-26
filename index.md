@@ -11,7 +11,7 @@ The ACL 2025 Student Research Workshop (SRW) will be held in conjunction with [A
 The workshop’s goal is to aid students at multiple stages of their education, including highschool, undergraduate, MSc/MA, junior and senior PhD students, in getting familiar with conducting and presenting their research.
 
 <br>
-We will update this site when new information is available (Last update: 2026.04.19).
+We will update this site when new information is available (Last update: 2026.04.26).
 
 Contact us via email at [acl2026srwchairs@gmail.com](mailto:acl2026srwchairs@gmail.com) for any questions.
 
@@ -49,9 +49,11 @@ June 6, 2025: Filling this [form](https://cryptpad.fr/form/#/2/form/view/IrfF8hd
 
 May 24, 2025: [Grant Application Guideline](https://acl2025-srw.github.io/travel_grant) has been updated -->
 
-April 16, 2026: The ARR submission deadline has passed! We recieved 22 submissions :) 
+April 24, 2026: All the reviews have been returned to the authors. Grant application has been opened.
 
-March 19, 2026: The direct submission deadline has passed! We recieved 379 submissions :rocket: 
+April 16, 2026: The ARR submission deadline has passed! We recieved 22 submissions.
+
+March 19, 2026: The direct submission deadline has passed! We recieved 379 submissions.
 
 March 4, 2026: The direct submission site has been open! Submit your work [here](https://openreview.net/group?id=aclweb.org/ACL/2026/SRW_Direct_Submission).
 

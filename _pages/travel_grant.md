@@ -26,9 +26,7 @@ Priority will be given to applicants who meet **one or more** of the following c
 
 ## Application Instructions
 
-Applicants must complete the **[SRW Grant Application Form](https://forms.gle/Ls2gUGSQGVSVTWiu6)** and upload a **statement letter** (compulsory) and justification materials (optional) by: **June 23rd, 2025, 23:59 AOE**. 
-
-We strongly recommend that applicants **submit the form only after the paper notification date (June 21)**, as paper acceptance results should be taken into account. However, applicants are encouraged to **prepare their materials in advance**.
+Applicants must complete the **[SRW Grant Application Form]** and upload a **statement letter** (compulsory) and justification materials (optional) by: **May 8th, 2026, 23:59 AOE**. 
 
 ### What to Submit
 
@@ -50,7 +48,7 @@ Late or incomplete submissions will **not** be considered.
 
 All applicants will be notified of the results by:
 
-**🗓️ June ~~26th~~ 24th, 2025, 23:59 AOE**
+**🗓️ May 20th, 2026, 23:59 AOE**
 
 Please be patient — every applicant will receive an email notification, **regardless of the outcome**.
 
@@ -64,15 +62,6 @@ We offer financial assistance for:
 - **Travel and accommodation expenses** (for in-person attendees)
 
 The number of grants awarded and the amount of funding provided will depend on the total number of applicants and the available budget.
-
----
-
-## Key Dates
-
-| Event                   | Date                           |
-| ----------------------- | ------------------------------ |
-| Application Deadline    | **June 23rd, 2025, 23:59 AOE** |
-| Notification of Results | **June ~~26th~~ 24th, 2025, 23:59 AOE** |
 
 ---
 
