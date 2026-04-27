@@ -6,13 +6,18 @@ import pandas as pd
 import openreview
 from openpyxl.cell.cell import ILLEGAL_CHARACTERS_RE
 
+
 # ============================================================
 # CONFIG
 # ============================================================
 
-INPUT_FILE = "Decisions.xlsx"
-OUTPUT_FILE = "Decisions_enriched.xlsx"
-PARTIAL_OUTPUT_FILE = "Decisions_enriched_partial.xlsx"
+INPUT_FILE = "ARR.xlsx"
+OUTPUT_FILE = "ARR_enriched.xlsx"
+PARTIAL_OUTPUT_FILE = "ARR_enriched_partial.xlsx"
+
+#VENUE_ID = "aclweb.org/ACL/2026/SRW_Direct_Submission"
+VENUE_ID = "aclweb.org/ACL/2026/SRW_ARR_Commitment"
+PREFERRED_EMAILS_INVITATION_ID = VENUE_ID + "/-/Preferred_Emails"
 
 # Save progress every N submissions
 SAVE_EVERY = 10
@@ -45,13 +50,14 @@ if not OPENREVIEW_PASSWORD:
     OPENREVIEW_PASSWORD = getpass.getpass("OpenReview password: ")
 
 
-# Try API v2 first.
-# Most modern OpenReview venues use api2.openreview.net.
 client = openreview.api.OpenReviewClient(
     baseurl="https://api2.openreview.net",
     username=OPENREVIEW_USERNAME,
     password=OPENREVIEW_PASSWORD,
 )
+
+print(f"Impersonating venue: {VENUE_ID}")
+client.impersonate(VENUE_ID)
 
 
 # ============================================================
@@ -99,12 +105,11 @@ AUTHOR_NAME_FIELDS = [
     "names",
 ]
 
-AUTHOR_EMAIL_FIELDS = [
+AUTHOR_ID_FIELDS = [
     "authorids",
-    "author_emails",
-    "emails",
-    "author_email",
+    "author_ids",
 ]
+
 
 # ============================================================
 # HELPERS
@@ -112,102 +117,6 @@ AUTHOR_EMAIL_FIELDS = [
 
 profile_cache = {}
 
-def get_author_profiles(author_ids):
-    """
-    Given a list of OpenReview author IDs / emails, return profile objects.
-    Uses a cache so repeated authors are only queried once.
-    """
-    if not author_ids:
-        return []
-
-    if isinstance(author_ids, str):
-        author_ids = [x.strip() for x in author_ids.split(";") if x.strip()]
-
-    missing_ids = [aid for aid in author_ids if aid and aid not in profile_cache]
-
-    if missing_ids:
-        try:
-            profiles = openreview.tools.get_profiles(client, missing_ids, as_dict=True)
-
-            for aid in missing_ids:
-                profile_cache[aid] = profiles.get(aid)
-
-        except TypeError:
-            # Older openreview-py versions may not support as_dict=True
-            profiles = openreview.tools.get_profiles(client, missing_ids)
-
-            for profile in profiles:
-                if profile:
-                    profile_cache[profile.id] = profile
-
-            for aid in missing_ids:
-                profile_cache.setdefault(aid, None)
-
-        except Exception as e:
-            print(f"    Could not fetch some author profiles: {e}")
-            for aid in missing_ids:
-                profile_cache[aid] = None
-
-    return [profile_cache.get(aid) for aid in author_ids]
-
-
-def get_profile_preferred_email(profile):
-    """
-    Extract preferred email from an OpenReview profile.
-    Handles several possible profile structures.
-    """
-    if not profile:
-        return ""
-
-    content = getattr(profile, "content", {}) or {}
-
-    # Common OpenReview profile field
-    if "preferredEmail" in content:
-        return normalize_value(content["preferredEmail"])
-
-    if "preferred_email" in content:
-        return normalize_value(content["preferred_email"])
-
-    # Sometimes emails exist but no preferred email is exposed
-    emails = content.get("emails") or content.get("emailsConfirmed")
-    if emails:
-        return normalize_value(emails)
-
-    return ""
-
-
-def get_profile_preferred_name(profile):
-    """
-    Extract preferred/full name from an OpenReview profile.
-    """
-    if not profile:
-        return ""
-
-    content = getattr(profile, "content", {}) or {}
-
-    names = content.get("names", [])
-    if isinstance(names, list) and names:
-        preferred_names = [n for n in names if isinstance(n, dict) and n.get("preferred")]
-
-        if preferred_names:
-            name = preferred_names[0]
-        else:
-            name = names[0]
-
-        if isinstance(name, dict):
-            return normalize_value(
-                name.get("fullname")
-                or " ".join(
-                    x for x in [
-                        name.get("first"),
-                        name.get("middle"),
-                        name.get("last"),
-                    ]
-                    if x
-                )
-            )
-
-    return normalize_value(getattr(profile, "id", ""))
 
 def extract_forum_id(url_or_id):
     """
@@ -248,8 +157,6 @@ def unwrap_openreview_value(value):
         if "value" in value:
             return value["value"]
 
-        # Sometimes fields may be nested differently.
-        # Fall back to a readable representation.
         return value
 
     return value
@@ -281,11 +188,8 @@ def clean_for_excel(text):
         return ""
 
     text = str(text)
-
-    # Remove illegal Excel control characters
     text = ILLEGAL_CHARACTERS_RE.sub("", text)
 
-    # Excel cell character limit
     if len(text) > 32767:
         text = text[:32760] + "..."
 
@@ -305,14 +209,36 @@ def normalize_value(value):
         return ""
 
     if isinstance(value, list):
-        text = "; ".join(clean_for_excel(x) for x in value)
+        text = "; ".join(clean_for_excel(x) for x in value if x not in [None, ""])
         return clean_for_excel(text)
 
     if isinstance(value, dict):
-        text = "; ".join(f"{clean_for_excel(k)}: {clean_for_excel(v)}" for k, v in value.items())
+        text = "; ".join(
+            f"{clean_for_excel(k)}: {clean_for_excel(v)}"
+            for k, v in value.items()
+        )
         return clean_for_excel(text)
 
     return clean_for_excel(value)
+
+
+def to_list(value):
+    """
+    Convert OpenReview field values to a clean Python list.
+    """
+    value = unwrap_openreview_value(value)
+
+    if value is None:
+        return []
+
+    if isinstance(value, list):
+        return [str(x).strip() for x in value if str(x).strip()]
+
+    if isinstance(value, str):
+        # Usually authorids are already a list, but handle semicolon strings too.
+        return [x.strip() for x in value.split(";") if x.strip()]
+
+    return [str(value).strip()]
 
 
 def print_short(label, value, max_len=160):
@@ -337,6 +263,128 @@ def clean_dataframe_for_excel(out_df):
     return cleaned
 
 
+def get_author_profiles(author_ids):
+    """
+    Given a list of OpenReview author IDs / emails, return profile objects.
+
+    Uses venue impersonation + Preferred_Emails invitation so chairs can retrieve
+    full preferred emails when permitted by the venue.
+    """
+    author_ids = to_list(author_ids)
+
+    if not author_ids:
+        return []
+
+    missing_ids = [aid for aid in author_ids if aid not in profile_cache]
+
+    if missing_ids:
+        try:
+            profiles = openreview.tools.get_profiles(
+                client,
+                missing_ids,
+                with_preferred_emails=PREFERRED_EMAILS_INVITATION_ID,
+            )
+
+            # Usually returns a list of Profile objects.
+            for profile in profiles:
+                if profile:
+                    profile_cache[getattr(profile, "id", "")] = profile
+
+            # Ensure every requested author ID has an entry, even if no profile found.
+            for aid in missing_ids:
+                if aid not in profile_cache:
+                    matched = None
+                    for profile in profiles:
+                        if not profile:
+                            continue
+                        if getattr(profile, "id", None) == aid:
+                            matched = profile
+                            break
+                    profile_cache[aid] = matched
+
+        except Exception as e:
+            print(f"    Could not fetch preferred emails for some author profiles: {e}")
+            for aid in missing_ids:
+                profile_cache[aid] = None
+
+    return [profile_cache.get(aid) for aid in author_ids]
+
+
+def get_profile_preferred_email(profile):
+    """
+    Extract full preferred email from an OpenReview profile.
+
+    This should use profile.get_preferred_email() when venue impersonation and
+    with_preferred_emails are working.
+    """
+    if not profile:
+        return ""
+
+    try:
+        email = profile.get_preferred_email()
+        if email:
+            return normalize_value(email)
+    except Exception:
+        pass
+
+    # Fallbacks for older/different openreview-py versions.
+    content = getattr(profile, "content", {}) or {}
+
+    for key in ["preferredEmail", "preferred_email"]:
+        if key in content:
+            return normalize_value(content[key])
+
+    emails = content.get("emails") or content.get("emailsConfirmed")
+    if emails:
+        return normalize_value(emails)
+
+    return ""
+
+
+def get_profile_preferred_name(profile):
+    """
+    Extract preferred/full name from an OpenReview profile.
+    """
+    if not profile:
+        return ""
+
+    try:
+        name = profile.get_preferred_name()
+        if name:
+            return normalize_value(name)
+    except Exception:
+        pass
+
+    content = getattr(profile, "content", {}) or {}
+
+    names = content.get("names", [])
+    if isinstance(names, list) and names:
+        preferred_names = [
+            n for n in names
+            if isinstance(n, dict) and n.get("preferred")
+        ]
+
+        if preferred_names:
+            name = preferred_names[0]
+        else:
+            name = names[0]
+
+        if isinstance(name, dict):
+            return normalize_value(
+                name.get("fullname")
+                or " ".join(
+                    x for x in [
+                        name.get("first"),
+                        name.get("middle"),
+                        name.get("last"),
+                    ]
+                    if x
+                )
+            )
+
+    return normalize_value(getattr(profile, "id", ""))
+
+
 def save_partial(
     df,
     upto_index,
@@ -345,6 +393,7 @@ def save_partial(
     title_out,
     abstract_out,
     author_names_out,
+    author_ids_out,
     author_emails_out,
 ):
     """
@@ -357,6 +406,7 @@ def save_partial(
     temp_df["openreview_title"] = title_out
     temp_df["openreview_abstract"] = abstract_out
     temp_df["openreview_author_names"] = author_names_out
+    temp_df["openreview_authorids"] = author_ids_out
     temp_df["openreview_author_emails"] = author_emails_out
 
     temp_df = clean_dataframe_for_excel(temp_df)
@@ -367,13 +417,30 @@ def save_partial(
 
 def get_note_with_fallback(forum_id):
     """
-    Try API v2 client first.
-
-    If your venue is old and this fails, you may need API v1.
-    This script keeps the main path simple, but the error message
-    will make it clear which forum failed.
+    Try API v2 client.
     """
     return client.get_note(forum_id)
+
+
+def append_blank_outputs(
+    keywords_out,
+    categories_out,
+    title_out,
+    abstract_out,
+    author_names_out,
+    author_ids_out,
+    author_emails_out,
+):
+    """
+    Keep all output lists aligned with the original spreadsheet rows.
+    """
+    keywords_out.append("")
+    categories_out.append("")
+    title_out.append("")
+    abstract_out.append("")
+    author_names_out.append("")
+    author_ids_out.append("")
+    author_emails_out.append("")
 
 
 # ============================================================
@@ -386,6 +453,8 @@ def main():
     print("=" * 80)
     print(f"Input file:  {INPUT_FILE}")
     print(f"Output file: {OUTPUT_FILE}")
+    print(f"Venue ID:    {VENUE_ID}")
+    print(f"Preferred emails invitation: {PREFERRED_EMAILS_INVITATION_ID}")
     print()
 
     if not os.path.exists(INPUT_FILE):
@@ -406,6 +475,7 @@ def main():
     title_out = []
     abstract_out = []
     author_names_out = []
+    author_ids_out = []
     author_emails_out = []
 
     failed = []
@@ -426,10 +496,15 @@ def main():
         if not forum_id:
             print("    No forum ID found, skipping.")
 
-            keywords_out.append("")
-            categories_out.append("")
-            title_out.append("")
-            abstract_out.append("")
+            append_blank_outputs(
+                keywords_out,
+                categories_out,
+                title_out,
+                abstract_out,
+                author_names_out,
+                author_ids_out,
+                author_emails_out,
+            )
 
             failed.append({
                 "row": i,
@@ -452,12 +527,9 @@ def main():
             abstract = first_existing_field(content, ABSTRACT_FIELDS)
 
             author_names = first_existing_field(content, AUTHOR_NAME_FIELDS)
-            author_ids = first_existing_field(content, AUTHOR_EMAIL_FIELDS)
+            author_ids = first_existing_field(content, AUTHOR_ID_FIELDS)
 
-            author_id_list = author_ids
-            if isinstance(author_id_list, str):
-                author_id_list = [x.strip() for x in author_id_list.split(";") if x.strip()]
-
+            author_id_list = to_list(author_ids)
             profiles = get_author_profiles(author_id_list)
 
             profile_names = [get_profile_preferred_name(p) for p in profiles]
@@ -469,6 +541,7 @@ def main():
             else:
                 author_names_final = normalize_value(profile_names)
 
+            author_ids_final = normalize_value(author_id_list)
             author_emails_final = normalize_value(profile_emails)
 
             keywords_out.append(normalize_value(keywords))
@@ -476,30 +549,42 @@ def main():
             title_out.append(normalize_value(title))
             abstract_out.append(normalize_value(abstract))
             author_names_out.append(author_names_final)
+            author_ids_out.append(author_ids_final)
             author_emails_out.append(author_emails_final)
-            
+
             print("    OK")
             print_short("keywords", keywords)
             print_short("category", category)
             print_short("openreview title", title)
             print_short("authors", author_names_final)
+            print_short("author ids", author_ids_final)
             print_short("author emails", author_emails_final)
 
-            # Useful debugging: show available content fields if category is empty
+            # Useful debugging: show available content fields if category is empty.
             if not normalize_value(category):
                 available_fields = ", ".join(sorted(content.keys()))
                 print(f"    category not found. Available fields: {available_fields}")
 
+            # Useful debugging: if emails are still masked.
+            if "****@" in author_emails_final:
+                print(
+                    "    WARNING: emails still appear masked. "
+                    "Check venue impersonation permissions and Preferred_Emails invitation."
+                )
+
         except Exception as e:
             print(f"    FAILED: {e}")
 
-            keywords_out.append("")
-            categories_out.append("")
-            title_out.append("")
-            abstract_out.append("")
-            author_names_out.append("")
-            author_emails_out.append("")
-            
+            append_blank_outputs(
+                keywords_out,
+                categories_out,
+                title_out,
+                abstract_out,
+                author_names_out,
+                author_ids_out,
+                author_emails_out,
+            )
+
             failed.append({
                 "row": i,
                 "forum_id": forum_id,
@@ -522,8 +607,10 @@ def main():
                 title_out=title_out,
                 abstract_out=abstract_out,
                 author_names_out=author_names_out,
+                author_ids_out=author_ids_out,
                 author_emails_out=author_emails_out,
             )
+
         print("-" * 80)
 
     df["openreview_keywords"] = keywords_out
@@ -531,6 +618,7 @@ def main():
     df["openreview_title"] = title_out
     df["openreview_abstract"] = abstract_out
     df["openreview_author_names"] = author_names_out
+    df["openreview_authorids"] = author_ids_out
     df["openreview_author_emails"] = author_emails_out
 
     df = clean_dataframe_for_excel(df)
@@ -545,6 +633,7 @@ def main():
     if failed:
         failed_df = pd.DataFrame(failed)
         failed_file = "openreview_failed_rows.xlsx"
+        failed_df = clean_dataframe_for_excel(failed_df)
         failed_df.to_excel(failed_file, index=False)
 
         print(f"Failed rows: {len(failed)}")
