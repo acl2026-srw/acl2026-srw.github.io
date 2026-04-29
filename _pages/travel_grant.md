@@ -26,7 +26,7 @@ Priority will be given to applicants who meet **one or more** of the following c
 
 ## Application Instructions
 
-Applicants must complete the **[SRW Grant Application Form]** and upload a **statement letter** (compulsory) and justification materials (optional) by: **May 8th, 2026, 23:59 AOE**. 
+Applicants must complete the **SRW Grant Application Form** and upload a **statement letter** (compulsory) and justification materials (optional) by: **May 8th, 2026, 23:59 AOE**. The form has been distributed to the accepted authors and will not be publicly shared.
 
 ### What to Submit
 
