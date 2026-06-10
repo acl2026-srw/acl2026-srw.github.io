@@ -4,7 +4,7 @@ title: "Program Schedule"
 permalink: /schedule
 nav_hidden: true
 published: true
-----------------
+---
 
 # Workshop Program
 
