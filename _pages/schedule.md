@@ -3,91 +3,112 @@ layout: page
 title: "Program Schedule"
 permalink: /schedule
 nav_hidden: true
-published: false
----
+published: true
+----------------
 
 # Workshop Program
 
-Coming soon!
-<!--
-
-The workshop will take place on **Monday, July 28** and **Tuesday, July 29** at the [Austria Center Vienna](https://www.acv.at/en/). The program consists of three sessions, featuring oral and poster presentations.
-
----
-## Session 3 - Oral Session
-
-**Date & Time:** Monday, July 28 | 14:00–15:30  
-**Location:** Hall N.2 & Zoom
-
-### 14:00–14:10  
-
-**WELCOME**
+The workshop program is as follows.
 
 ---
 
-### 14:10–15:20 | Presentations  
+## Oral Session
 
-**14:10–14:20**  
-**Paper ID:** 96-SRW  
-**Title:** *Towards Multi-Perspective NLP Systems: A Thesis Proposal*  
-**Presenter:** Benedetta Muscato  
+**Date & Time:** Monday, July 6 | 11:00–17:30
+**Location:** Main Conference
 
-**14:20–14:30**  
-**Paper ID:** 156-SRW  
-**Title:** *Fact from Fiction: Finding Serialized Novels in Newspapers*  
-**Presenter:** Pascale Feldkamp  
+### 11:00–11:05
 
-**14:30–14:40**  
-**Paper ID:** 187-SRW  
-**Title:** *Semantic Alignment in Hyperbolic Space for Fine-Grained Emotion Classification*  
-**Presenter:** Ashish Kumar  
-
-**14:40–14:50**  
-**Paper ID:** 195-SRW  
-**Title:** *SimBench: Benchmarking the Ability of Large Language Models to Simulate Human Behaviors*  
-**Presenter:** Tiancheng Hu  
-
-**14:50–15:00**  
-**Paper ID:** 198-SRW  
-**Title:** *Adversarial Tokenization*  
-**Presenter:** Renato Lui Geh  
-
-**15:00–15:10**  
-**Paper ID:** 276-SRW  
-**Title:** *Tree-of-Report: Table-to-Text Generation for Sports Game Reports with Tree-Structured Prompting*  
-**Presenter:** Shang-Hsuan Chiang  
-
-**15:10–15:20**  
-**Paper ID:** 63-SRW  
-**Title:** *Reasoning for Translation: Comparative Analysis of Chain-of-Thought and Tree-of-Thought Prompting for LLM Translation*  
-**Presenter:** Lam Nguyen  
+**OPENING REMARKS**
 
 ---
 
-### 15:20–15:30  
-**BEST PAPERS & CLOSING**
+### 11:05–12:35 | Presentations
+
+**11:05–11:20**
+**Paper ID:** SRW - 320
+**Title:** *Evaluation of Multilingual Ability to Use Spatial Deictic Expressions in Vision-Language Models*
+**Authors:** Kaito Watanabe; Taisei Yamamoto; Tomoki Doi; Hitomi Yanaka
+
+**11:20–11:35**
+**Paper ID:** SRW - 67
+**Title:** *BANGLASOCIALBENCH: A Benchmark for Evaluating Sociopragmatic and Cultural Alignment of LLMs in Bangladeshi Social Interaction*
+**Authors:** Tanvir Ahmed Sijan; S. M Golam Rifat; Pankaj Chowdhury Partha; Md. Tanjeed Islam; Md Musfique Anwar
+
+**11:35–11:50**
+**Paper ID:** SRW - 44
+**Title:** *Neural KWIC: Inducing Contextualized Word Embeddings from KWIC Concordance Examples*
+**Authors:** Mao Shimada; Hajime Kiyama; Zhidong Ling; Mamoru Komachi; Toshinobu Ogiso; Hiroya Takamura; Daichi Mochihashi
+
+**11:50–12:05**
+**Paper ID:** SRW - 77
+**Title:** *LLM-based Literal Example Generation for Japanese Multiword Expressions*
+**Authors:** Mio Ohashi; Hajime Kiyama; Zhidong Ling; Mamoru Komachi
+
+**12:05–12:20**
+**Paper ID:** SRW - 146
+**Title:** *The Silence of the Facts: Popularity as a Barrier to Machine Unlearning*
+**Authors:** Anna Borisiuk; Andrey Savchenko; Alexander Panchenko; Elena Tutubalina
+
+**12:20–12:35**
+**Paper ID:** SRW - 110
+**Title:** *Disentangling the Effects of Unlearning in Measuring Parametric Faithfulness of Chain-of-Thought*
+**Authors:** Ryo Mitsuhashi; Gaku Morio; Ayana Niwa; Masahiro Kaneko; Kentaro Inui; Terufumi Morishita; Yuta Koreeda; Yasuhiro Sogawa
 
 ---
 
-## Session 7 – Poster Session (Hybrid)  
-**Date & Time:** Tuesday, July 29 | 10:30–12:00  
-**Location:** Hall 4/5 & Zoom
+### 14:00–15:30 | Presentations
 
-This hybrid session will include both **in-person** and **virtual poster presentations**.
+**14:00–14:15**
+**Paper ID:** SRW - 240
+**Title:** *One Panel Does Not Fit All: Case-Adaptive Multi-Agent Deliberation for Clinical Prediction*
+**Authors:** Yuxing Lu; Yushuhong Lin; Jason Zhang
 
-[UPDATE:] During the virtual sessions, you will be required to present your paper using a poster or a set of slides in a 4-minute talk, followed by a 2-minute Q&A session. You can check your presentation order in the underline.
+**14:15–14:30**
+**Paper ID:** SRW - A - 23
+**Title:** *Think Anywhere in Code Generation*
+**Authors:** Xue Jiang; Tianyu Zhang; Ge Li; Mengyang Liu; Taozhi Chen; Zhenhua Xu; Wenpin Jiao; Zhi Jin; Yihong Dong
+
+**14:30–14:45**
+**Paper ID:** SRW - 376
+**Title:** *The signal is coming from inside the noun phrase! Tracking semantic proto-role inferences during sentence processing*
+**Authors:** Lucas Y. Li; Zander Lynch; Marten Van Schijndel
+
+**14:45–15:00**
+**Paper ID:** SRW - 307
+**Title:** *MetaCog-Bench: Quantifying the Metacognition Gap in Edge LLM Tool Calling Under Information Insufficiency*
+**Authors:** Yu-An Lu; Chun-En Hsiao; Chengwei Chiang; Hong-Han Shuai
+
+**15:00–15:15**
+**Paper ID:** SRW - 4
+**Title:** *Multi-Agent Reasoning Improves Compute Efficiency: Pareto-Optimal Test-Time Scaling*
+**Authors:** Florian Valentin Wunderlich; Lars Benedikt Kaesberg; Jan Philip Wahle; Terry Ruas; Bela Gipp
+
+**15:15–15:30**
+**Paper ID:** SRW - A 9
+**Title:** *Adaptive Data Collection for Latin-American Community-sourced Evaluation of Stereotypes (LACES)*
+**Authors:** Guido Ivetta; Pietro Palombini; Sofía Martinelli; Marcos J Gomez; M Emilia Echeveste; Sunipa Dev; Vinodkumar Prabhakaran; Luciana Benotti
 
 ---
 
-## Session 10 – Poster Session (Hybrid)  
-**Date & Time:** Tuesday, July 29 | 16:00–17:30  
-**Location:** Hall 4/5 & Zoom
+### 16:00–17:15
 
-This is the final session of the workshop, also featuring **in-person** and **virtual poster presentations**.
-
-[UPDATE:] During the virtual sessions, you will be required to present your paper using a poster or a set of slides in a 4-minute talk, followed by a 2-minute Q&A session. You can check your presentation order in the underline.
+**PANEL DISCUSSION**
 
 ---
 
-**Note:** To ensure a smooth presentation experience, all presenters are encouraged to review the [Presenter’s Guide](https://docs.google.com/presentation/d/1PJOyaKKAezi_YFpaTS-nHv4xacgcVswnukFgc6ZY_QM/edit?usp=sharing).
->
+### 17:15–17:30
+
+**CLOSING REMARKS**
+
+---
+
+## Poster Session
+
+**Date & Time:** Monday, July 6 | 09:00–10:30
+**Location:** Grand Hall
+**Track:** Main Conference
+
+This session will feature **SRW poster presentations**.
+
+---

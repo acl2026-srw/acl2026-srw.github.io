@@ -22,9 +22,9 @@ If you would like to get feedback from mentors, please fill in this [form](https
 
 ----
 # News
-June 10, 2026: [Program schedule](https://acl2025-srw.github.io/schedule) is published!
+June 10, 2026: [Program schedule](https://acl2026-srw.github.io/schedule) is published!
 
-June 10, 2026: Accepted papers are [listed](https://acl2025-srw.github.io/accepted_papers).
+June 10, 2026: Accepted papers are [listed](https://acl2026-srw.github.io/accepted_papers).
 
 May 20, 2026: Travel grant results have been notified to all the applicants.
 
