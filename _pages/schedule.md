@@ -15,12 +15,9 @@ The workshop program is as follows.
 ## Oral Session
 
 **Date & Time:** Monday, July 6 | 11:00–17:30
-**Location:** Main Conference
+**Location:** Gaslamp A&B
 
-### 11:00–11:05
-
-**OPENING REMARKS**
-
+### 11:00–11:05 | Opening Remarks
 ---
 
 ### 11:05–12:35 | Presentations
@@ -91,15 +88,11 @@ The workshop program is as follows.
 
 ---
 
-### 16:00–17:15
-
-**PANEL DISCUSSION**
+### 16:00–17:15 | Panel Discussion: The next big questions in NLP: What should students work on?
 
 ---
 
-### 17:15–17:30
-
-**CLOSING REMARKS**
+### 17:15–17:30 | Closing Remarks
 
 ---
 
@@ -107,8 +100,14 @@ The workshop program is as follows.
 
 **Date & Time:** Monday, July 6 | 09:00–10:30
 **Location:** Grand Hall
-**Track:** Main Conference
 
 This session will feature **SRW poster presentations**.
+
+---
+
+## Virtual Program
+
+**Date & Time:** July 5-7
+**Location:** Virtually on underline
 
 ---
