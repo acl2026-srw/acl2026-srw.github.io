@@ -22,32 +22,11 @@ If you would like to get feedback from mentors, please fill in this [form](https
 
 ----
 # News
-<!-- ----
-July 19: [Program schedule](https://acl2025-srw.github.io/schedule) is updated.
+June 10, 2026: [Program schedule](https://acl2025-srw.github.io/schedule) is published!
 
-July 9: Acknowledgement [update](https://acl2025-srw.github.io/acknowledgement) with deepest thanks.
+June 10, 2026: Accepted papers are [listed](https://acl2025-srw.github.io/accepted_papers).
 
-July 9: Accepted papers are [listed](https://acl2025-srw.github.io/accepted_papers).
-
-June 26, 2025: You can download the different versions of ACL logo from [here](https://drive.google.com/drive/folders/1GtkNVmq_bogb9ZJwzKWyyX2Q_0fMkOQg).
-
-June 26, 2025: 
-
-Update: You can upload the copyright transfer file when submitting the camera-ready paper in the Openreview.
-
-June 26, 2025: Grant has been notified to the applicants.
-
-June 25, 2025: The Camera-ready version submission has been open! Student Status Proof is Required! (details can be found [here](https://acl2025-srw.github.io/author#:~:text=Student%20Status%20Proof).)
-
-June 25, 2025: At least one author of each accepted paper must complete the registration by this date. SRW attendees must register for the '[Full Conference](https://2025.aclweb.org/)' (not workshops only), as the SRW will be held during the main conference. Virtual registration is permitted.
-
-June 23, 2025: Grant application has been closed. 
-
-June 21, 2025: All the reviews have been returned to the authors.
-
-June 6, 2025: Filling this [form](https://cryptpad.fr/form/#/2/form/view/IrfF8hdarp0UwDMlrIApSUjPIo5XoyzsBLRHIPkhMIU/) for obtaining a VISA in advance, more [info](https://2025.aclweb.org/visa/) here.
-
-May 24, 2025: [Grant Application Guideline](https://acl2025-srw.github.io/travel_grant) has been updated -->
+May 20, 2026: Travel grant results have been notified to all the applicants.
 
 April 24, 2026: All the reviews have been returned to the authors. Grant application has been opened.
 
