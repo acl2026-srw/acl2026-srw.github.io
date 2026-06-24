@@ -14,7 +14,7 @@ The workshop program is as follows.
 
 ## Oral Session
 
-**Date & Time:** Monday, July 5 | 11:00–17:30
+**Date & Time:** Sunday, July 5 | 11:00–17:30
 **Location:** Gaslamp A&B
 
 ### 11:00–11:05 | Opening Remarks
