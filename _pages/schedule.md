@@ -28,14 +28,14 @@ The workshop program is as follows.
 **Authors:** Kaito Watanabe; Taisei Yamamoto; Tomoki Doi; Hitomi Yanaka
 
 **11:20–11:35**\
-**Paper ID:** SRW - 67\
-**Title:** *BANGLASOCIALBENCH: A Benchmark for Evaluating Sociopragmatic and Cultural Alignment of LLMs in Bangladeshi Social Interaction*\
-**Authors:** Tanvir Ahmed Sijan; S. M Golam Rifat; Pankaj Chowdhury Partha; Md. Tanjeed Islam; Md Musfique Anwar
-
-**11:35–11:50**\
 **Paper ID:** SRW - 44\
 **Title:** *Neural KWIC: Inducing Contextualized Word Embeddings from KWIC Concordance Examples*\
 **Authors:** Mao Shimada; Hajime Kiyama; Zhidong Ling; Mamoru Komachi; Toshinobu Ogiso; Hiroya Takamura; Daichi Mochihashi
+
+**11:35–11:50**\
+**Paper ID:** SRW - 67\
+**Title:** *BANGLASOCIALBENCH: A Benchmark for Evaluating Sociopragmatic and Cultural Alignment of LLMs in Bangladeshi Social Interaction*\
+**Authors:** Tanvir Ahmed Sijan; S. M Golam Rifat; Pankaj Chowdhury Partha; Md. Tanjeed Islam; Md Musfique Anwar
 
 **11:50–12:05**\
 **Paper ID:** SRW - 77\
@@ -89,6 +89,8 @@ The workshop program is as follows.
 ---
 
 ### 16:00–17:15 | Panel Discussion: The next big questions in NLP: What should students work on?
+
+**Panelists**: Jordan Boyd-Graber (University of Maryland), Yulia Tsvetkov (University of Washington), Iryna Gurevych (TU Darmstadt), Preslav Nakov (MBZUAI)
 
 ---
 
