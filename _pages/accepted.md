@@ -391,7 +391,7 @@ Lucas Y. Li; Zander Lynch; Marten Van Schijndel
 [***The Confident Liar: Diagnosing Multi-Agent Debate with Log-Probabilities and LLM-as-Judge***](https://aclanthology.org/2026.acl-srw.121.pdf)\
 Ali Keramati; Justin Cheok; Jacob Horne; Mark Warschauer
 
-***Adaptive Data Collection for Latin-American Community-sourced Evaluation of Stereotypes (LACES)***\
+[***Adaptive Data Collection for Latin-American Community-sourced Evaluation of Stereotypes (LACES)***](https://aclanthology.org/2026.findings-acl.203.pdf)\
 Guido Ivetta; Pietro Palombini; Sofía Martinelli; Marcos J Gomez; M Emilia Echeveste; Sunipa Dev; Vinodkumar Prabhakaran; Luciana Benotti
 
 ***Metadata Conditioned Large Language Models for Localization***\
