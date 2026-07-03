@@ -24,7 +24,7 @@ The workshop program is as follows.
 
 **11:05–11:20**\
 **Paper ID:** SRW - 320\
-**Title:** *Evaluation of Multilingual Ability to Use Spatial Deictic Expressions in Vision-Language Models*\
+**Title:** [*Evaluation of Multilingual Ability to Use Spatial Deictic Expressions in Vision-Language Models*](https://aclanthology.org/2026.acl-srw.106.pdf)\
 **Authors:** Kaito Watanabe; Taisei Yamamoto; Tomoki Doi; Hitomi Yanaka
 
 **11:20–11:35**\
@@ -34,22 +34,22 @@ The workshop program is as follows.
 
 **11:35–11:50**\
 **Paper ID:** SRW - 67\
-**Title:** *BANGLASOCIALBENCH: A Benchmark for Evaluating Sociopragmatic and Cultural Alignment of LLMs in Bangladeshi Social Interaction*\
+**Title:** [*BANGLASOCIALBENCH: A Benchmark for Evaluating Sociopragmatic and Cultural Alignment of LLMs in Bangladeshi Social Interaction*](https://aclanthology.org/2026.acl-srw.22.pdf)\
 **Authors:** Tanvir Ahmed Sijan; S. M Golam Rifat; Pankaj Chowdhury Partha; Md. Tanjeed Islam; Md Musfique Anwar
 
 **11:50–12:05**\
 **Paper ID:** SRW - 77\
-**Title:** *LLM-based Literal Example Generation for Japanese Multiword Expressions*\
+**Title:** [*LLM-based Literal Example Generation for Japanese Multiword Expressions*](https://aclanthology.org/2026.acl-srw.25.pdf)\
 **Authors:** Mio Ohashi; Hajime Kiyama; Zhidong Ling; Mamoru Komachi
 
 **12:05–12:20**\
 **Paper ID:** SRW - 146\
-**Title:** *The Silence of the Facts: Popularity as a Barrier to Machine Unlearning*\
+**Title:** [*The Silence of the Facts: Popularity as a Barrier to Machine Unlearning*](https://aclanthology.org/2026.acl-srw.46.pdf)\
 **Authors:** Anna Borisiuk; Andrey Savchenko; Alexander Panchenko; Elena Tutubalina
 
 **12:20–12:35**\
 **Paper ID:** SRW - 110\
-**Title:** *Disentangling the Effects of Unlearning in Measuring Parametric Faithfulness of Chain-of-Thought*\
+**Title:** [*Disentangling the Effects of Unlearning in Measuring Parametric Faithfulness of Chain-of-Thought*](https://aclanthology.org/2026.acl-srw.36.pdf)\
 **Authors:** Ryo Mitsuhashi; Gaku Morio; Ayana Niwa; Masahiro Kaneko; Kentaro Inui; Terufumi Morishita; Yuta Koreeda; Yasuhiro Sogawa
 
 ---
@@ -58,7 +58,7 @@ The workshop program is as follows.
 
 **14:00–14:15**\
 **Paper ID:** SRW - 240\
-**Title:** *One Panel Does Not Fit All: Case-Adaptive Multi-Agent Deliberation for Clinical Prediction*\
+**Title:** [*One Panel Does Not Fit All: Case-Adaptive Multi-Agent Deliberation for Clinical Prediction*](https://aclanthology.org/2026.acl-srw.75.pdf)\
 **Authors:** Yuxing Lu; Yushuhong Lin; Jason Zhang
 
 **14:15–14:30**\
@@ -78,12 +78,12 @@ The workshop program is as follows.
 
 **15:00–15:15**\
 **Paper ID:** SRW - 4\
-**Title:** *Multi-Agent Reasoning Improves Compute Efficiency: Pareto-Optimal Test-Time Scaling*\
+**Title:** [*Multi-Agent Reasoning Improves Compute Efficiency: Pareto-Optimal Test-Time Scaling*](https://aclanthology.org/2026.acl-srw.1.pdf)\
 **Authors:** Florian Valentin Wunderlich; Lars Benedikt Kaesberg; Jan Philip Wahle; Terry Ruas; Bela Gipp
 
 **15:15–15:30**\
 **Paper ID:** SRW - A 9\
-**Title:** *Adaptive Data Collection for Latin-American Community-sourced Evaluation of Stereotypes (LACES)*\
+**Title:** [*Adaptive Data Collection for Latin-American Community-sourced Evaluation of Stereotypes (LACES)*](https://aclanthology.org/2026.findings-acl.203.pdf)\
 **Authors:** Guido Ivetta; Pietro Palombini; Sofía Martinelli; Marcos J Gomez; M Emilia Echeveste; Sunipa Dev; Vinodkumar Prabhakaran; Luciana Benotti
 
 ---
