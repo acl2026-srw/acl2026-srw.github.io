@@ -47,9 +47,6 @@ Rajarshi Ghoshal; Salma Emad Mahmoud Abdelhalim; Debadri Basak; Pratibha kaur ar
 [***Probing Functional Correctness in Diffusion Language Models***](https://aclanthology.org/2026.acl-srw.15.pdf)\
 Guan-Ming Chiu; Jeng-Yue Liu
 
-***Thesis Proposal: Uncertainty as Adaptive Control: From Selection to Curriculum via Conformal Calibration***\
-Peihong Li; Yan Yan
-
 [***Thesis Proposal: On the Granularity-Robustness Trade-off in Text-Derived Knowledge Graphs***](https://aclanthology.org/2026.acl-srw.17.pdf)\
 Surawat Pralomram
 
@@ -86,9 +83,6 @@ Hayato Ogawa; Daisuke Kawahara
 [***Tracking the Evolution of Foresight Signals in News Data: The Case of the European Electric Vehicle Market***](https://aclanthology.org/2026.acl-srw.28.pdf)\
 Karine Navasartian
 
-***Cultural Value Alignment Via Latent Activation Steering in Large Language Models***\
-Trung Duc Anh Dang; Sarah Masud
-
 [***Debiasing Logical Fallacy Detection for Real-World Robustness via Counterfactually Augmented Data***](https://aclanthology.org/2026.acl-srw.30.pdf)\
 Navyansh Singh
 
@@ -103,9 +97,6 @@ Rajashik Datta; Sanjan Baitalik
 
 [***BanglaSTEM: A Parallel Corpus and Term-Weighted Evaluation for Technical Bangla-English Translation***](https://aclanthology.org/2026.acl-srw.34.pdf)\
 Kazi Reyazul Hasan; A. B. M. Alim Al Islam; Muhammad Abdullah Adnan
-
-***Believing is Seeing: How Token Inflation Mechanistically Erodes Theory of Mind in Large Language Models***\
-Zhizhi Wang; Ruochen Zhang
 
 [***Disentangling the Effects of Unlearning in Measuring Parametric Faithfulness of Chain-of-Thought***](https://aclanthology.org/2026.acl-srw.36.pdf)\
 Ryo Mitsuhashi; Gaku Morio; Ayana Niwa; Masahiro Kaneko; Kentaro Inui; Terufumi Morishita; Yuta Koreeda; Yasuhiro Sogawa
@@ -151,9 +142,6 @@ Jan Bronec; Jindřich Helcl
 
 [***A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations through Visual Context Reconstruction and Redundancy Reduction***](https://aclanthology.org/2026.acl-srw.50.pdf)\
 Michito Takeshita; Takuro Kawada; Takumi Ohashi; Shunsuke Kitada; Hitoshi Iyatomi
-
-***Beyond Static Cropping: Layer-Adaptive Visual Localization and Decoding Enhancement***\
-Zipeng Zhu; Zhanghao Hu; Qinglin Zhu; Jingyong Su; Yulan He; Lin Gui
 
 [***Counterspeech Generation using Small Language Models***](https://aclanthology.org/2026.acl-srw.52.pdf)\
 Abubakar Sadiq Muhammad; Simona Frenda; Gavin Abercrombie
@@ -212,9 +200,6 @@ Sercan Karakas; Yusuf ŞİMŞEK
 [***When Models Hesitate: Answer Instability as a Label-Free Uncertainty Signal for LLMs***](https://aclanthology.org/2026.acl-srw.72.pdf)\
 Jasper Meynard Arana; Kristine Ann M. Carandang; Ethan Robert Casin; Christian Alis; Christopher Monterola
 
-***HARP: Representation-Based Preference Learning for Perceptual Data***\
-Jordan Sinclair; Yousra Shleibik; Kerstin Haring
-
 [***Thesis Proposal: Toward a Human-Centered and Perspective-Aware Framework for Reproducible ML Evaluation and AI Alignment***](https://aclanthology.org/2026.acl-srw.74.pdf)\
 Deepak Pandita; Christopher M Homan
 
@@ -268,9 +253,6 @@ Jin Tanaka; Daiki Matsuoka; Ryoma Kumon; Hitomi Yanaka
 
 [***Morphology-Aware Multi-Granularity Representation Learning for Agglutinative Languages***](https://aclanthology.org/2026.acl-srw.92.pdf)\
 zhonghao zhang; NA LIU; Jiajia Ma; Nier Wu; Guiping Liu
-
-***An Incremental CYK Recognizer for GPU-accelerated General Context-free Prefix Validation***\
-Jiacheng Zhang; Ayesha Khatun; Steven Bethard
 
 [***Processing Inconsistency Predicts Language Competence: LLM Evaluation Without Answer Labels on Turkic Languages***](https://aclanthology.org/2026.acl-srw.94.pdf)\
 Ilya Galyukshev; Ilseyar Alimova
@@ -351,6 +333,24 @@ Mateusz Bystroński; Doheon Han; Nitesh V. Chawla; Tomasz Jan Kajdanowicz
 Pavel Tikhonov; Ivan Oseledets; Elena Tutubalina
 
 ## Non-archival
+
+***Thesis Proposal: Uncertainty as Adaptive Control: From Selection to Curriculum via Conformal Calibration***\
+Peihong Li; Yan Yan
+
+***Believing is Seeing: How Token Inflation Mechanistically Erodes Theory of Mind in Large Language Models***\
+Zhizhi Wang; Ruochen Zhang
+
+***Beyond Static Cropping: Layer-Adaptive Visual Localization and Decoding Enhancement***\
+Zipeng Zhu; Zhanghao Hu; Qinglin Zhu; Jingyong Su; Yulan He; Lin Gui
+
+***Cultural Value Alignment Via Latent Activation Steering in Large Language Models***\
+Trung Duc Anh Dang; Sarah Masud
+
+***HARP: Representation-Based Preference Learning for Perceptual Data***\
+Jordan Sinclair; Yousra Shleibik; Kerstin Haring
+
+***An Incremental CYK Recognizer for GPU-accelerated General Context-free Prefix Validation***\
+Jiacheng Zhang; Ayesha Khatun; Steven Bethard
 
 ***RAQE: Reranker-Aligned Query Expansion via Label-Free Group-Relative Policy Optimization***\
 Gyeonghun Sun; Jeonghwan Choi; Hwanjun Song
