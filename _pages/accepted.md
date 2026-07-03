@@ -8,6 +8,9 @@ published: true
 
 ## Archival
 
+[***The Confident Liar: Diagnosing Multi-Agent Debate with Log-Probabilities and LLM-as-Judge***](https://aclanthology.org/2026.acl-srw.121.pdf)\
+Ali Keramati; Justin Cheok; Jacob Horne; Mark Warschauer
+
 [***Multi-Agent Reasoning Improves Compute Efficiency: Pareto-Optimal Test-Time Scaling***](https://aclanthology.org/2026.acl-srw.1.pdf)\
 Florian Valentin Wunderlich; Lars Benedikt Kaesberg; Jan Philip Wahle; Terry Ruas; Bela Gipp
 
@@ -387,9 +390,6 @@ Pravish Sainath
 
 ***The signal is coming from inside the noun phrase! Tracking semantic proto-role inferences during sentence processing***\
 Lucas Y. Li; Zander Lynch; Marten Van Schijndel
-
-[***The Confident Liar: Diagnosing Multi-Agent Debate with Log-Probabilities and LLM-as-Judge***](https://aclanthology.org/2026.acl-srw.121.pdf)\
-Ali Keramati; Justin Cheok; Jacob Horne; Mark Warschauer
 
 [***Adaptive Data Collection for Latin-American Community-sourced Evaluation of Stereotypes (LACES)***](https://aclanthology.org/2026.findings-acl.203.pdf)\
 Guido Ivetta; Pietro Palombini; Sofía Martinelli; Marcos J Gomez; M Emilia Echeveste; Sunipa Dev; Vinodkumar Prabhakaran; Luciana Benotti
