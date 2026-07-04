@@ -24,41 +24,17 @@ Alphaeus Dmonte; Roland R Oruche; Marcos Zampieri; Prasad Calyam; Isabelle Augen
 [***Language Directions in Multilingual LLMs: A Layer-wise Diagnostic Study of Token Alignment and Pretraining Imprint***](https://aclanthology.org/2026.acl-srw.3.pdf)\
 Jea Sung Kim; Suan Lee
 
-[***Emergence of Minimal Circuits for Indirect Object Identification in Attention-Only Transformers***](https://aclanthology.org/2026.acl-srw.4.pdf)\
-Rabin Adhikari
-
-[***Why Large Language Models can Secretly Outperform Embedding Similarity in Information Retrieval***](https://aclanthology.org/2026.acl-srw.5.pdf)\
-Matei Benescu; Ivo Pascal de Jong
-
 [***Detecting Hallucinations in Large Language Models via Internal Attention Divergence Signals***](https://aclanthology.org/2026.acl-srw.6.pdf)\
 Gijs van Dijk
-
-[***Reflection in the Dark: Exposing and Escaping the Black Box in Reflective Prompt Optimization***](https://aclanthology.org/2026.acl-srw.8.pdf)\
-Shiyan Liu; Qifeng Xia; Qiyun Xia; Yisheng Liu; Xinyu Yu; Rui Qu
 
 [***Thesis Proposal: LLMs post-training for multilingual medical tasks. Instruction-Tuning, Continual-Pretraining or Reasoning?***](https://aclanthology.org/2026.acl-srw.9.pdf)\
 Pietro Ferrazzi; Alberto Lavelli; Bernardo Magnini
 
-[***Peek2: Regex-free Byte-level Byte-Pair Encoding Pretokenizer for LLM Inference on Edge Devices***](https://aclanthology.org/2026.acl-srw.10.pdf)\
-Liu Zai; Iraklis A. Klampanos
-
 [***Annotation Entropy Predicts Per-Example Learning Dynamics in LoRA Fine-Tuning***](https://aclanthology.org/2026.acl-srw.11.pdf)\
 Brady Steele
 
-[***Semantic Contrastive Adaptation for Multimodal Figurative Language Understanding***](https://aclanthology.org/2026.acl-srw.12.pdf)\
-Ayaan Siddiqui
-
 [***Think Less, Code Better: Probing When Chain-of-Thought Hurts and How to Route Around It***](https://aclanthology.org/2026.acl-srw.13.pdf)\
 Rajarshi Ghoshal; Salma Emad Mahmoud Abdelhalim; Debadri Basak; Pratibha kaur arora
-
-[***Probing Functional Correctness in Diffusion Language Models***](https://aclanthology.org/2026.acl-srw.15.pdf)\
-Guan-Ming Chiu; Jeng-Yue Liu
-
-[***Thesis Proposal: On the Granularity-Robustness Trade-off in Text-Derived Knowledge Graphs***](https://aclanthology.org/2026.acl-srw.17.pdf)\
-Surawat Pralomram
-
-[***TokLens: A Multilingual Lens on Tokenizer Quality for LLMs***](https://aclanthology.org/2026.acl-srw.18.pdf)\
-Guan-Ming Chiu
 
 [***Phase Transitions in Affective Meaning Divergence: The Hidden Drift Before the Break***](https://aclanthology.org/2026.acl-srw.19.pdf)\
 Napassorn Litchiowong
@@ -84,23 +60,8 @@ Hayato Ogawa; Daisuke Kawahara
 [***Tracking the Evolution of Foresight Signals in News Data: The Case of the European Electric Vehicle Market***](https://aclanthology.org/2026.acl-srw.28.pdf)\
 Karine Navasartian
 
-[***Debiasing Logical Fallacy Detection for Real-World Robustness via Counterfactually Augmented Data***](https://aclanthology.org/2026.acl-srw.30.pdf)\
-Navyansh Singh
-
 [***Thesis Proposal: Bring Linguistics Back to Cryptanalysis - Using Attestation to Break the Advanced Encryption Standard***](https://aclanthology.org/2026.acl-srw.31.pdf)\
 Madeline Boese
-
-[***Garden Path Recovery in Causal and Masked Language Models***](https://aclanthology.org/2026.acl-srw.32.pdf)\
-Sanjan Baitalik; Rajashik Datta
-
-[***Confidence as a Tie-Breaker: Reassessing Multilingual Hedging Bias in LLM-as-a-Judge Evaluation***](https://aclanthology.org/2026.acl-srw.33.pdf)\
-Rajashik Datta; Sanjan Baitalik
-
-[***BanglaSTEM: A Parallel Corpus and Term-Weighted Evaluation for Technical Bangla-English Translation***](https://aclanthology.org/2026.acl-srw.34.pdf)\
-Kazi Reyazul Hasan; A. B. M. Alim Al Islam; Muhammad Abdullah Adnan
-
-[***FedPAGR: Federated Prototype Alignment via Geometric Refinement for Heterogeneous Architectures***](https://aclanthology.org/2026.acl-srw.37.pdf)\
-Kris Prasad; Md Abdullah Al Hafiz Khan
 
 [***Sentiment Analysis of Yelp Review Dataset: A Comparative Study of Machine Learning Methods***](https://aclanthology.org/2026.acl-srw.38.pdf)\
 Krishna Thakar; Mohamed Abu Sheha; Emmanuel Thompson
@@ -120,17 +81,8 @@ Xiaoshan He; Xiaoqun Liu; Haodong He; Yu Wang; Yang Xu
 [***Thesis Proposal: Diagnosing and Mitigating Semantic Interference in Script-Sharing Low-Resource Language Models: A Case Study on Square Bai Script***](https://aclanthology.org/2026.acl-srw.43.pdf)\
 Jingting Zheng; Deyi Xiong
 
-[***Does Locality Cost in Polish Medical Text Classification? Duplicate-Aware Evaluation of Federated Learning***](https://aclanthology.org/2026.acl-srw.44.pdf)\
-Daniel Cieślak; Andrzej Czyżewski
-
 [***Analyzing Hate Speech Amplification on Fringe Platforms***](https://aclanthology.org/2026.acl-srw.45.pdf)\
 Anika Ghosh Basu
-
-[***Leakage-Aware User-Level ADHD Signal Classification from Social Media: When Graph Aggregation Helps, and When It Does Not***](https://aclanthology.org/2026.acl-srw.47.pdf)\
-Daniel Cieślak; Władysław Średniawa
-
-[***CAL-Log: Cost-Aware Active Learning with Logarithmic Cognitive Effort Modeling and Online Adaptation to Human Annotation Behavior***](https://aclanthology.org/2026.acl-srw.48.pdf)\
-Vihanga Supasan Kariyakaranage; Banuka Athuraliya
 
 [***Thesis Proposal: Targeted and Unified Cross-Lingual Unlearning from Multilingual Language Models***](https://aclanthology.org/2026.acl-srw.49.pdf)\
 Jan Bronec; Jindřich Helcl
@@ -138,35 +90,14 @@ Jan Bronec; Jindřich Helcl
 [***A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations through Visual Context Reconstruction and Redundancy Reduction***](https://aclanthology.org/2026.acl-srw.50.pdf)\
 Michito Takeshita; Takuro Kawada; Takumi Ohashi; Shunsuke Kitada; Hitoshi Iyatomi
 
-[***Counterspeech Generation using Small Language Models***](https://aclanthology.org/2026.acl-srw.52.pdf)\
-Abubakar Sadiq Muhammad; Simona Frenda; Gavin Abercrombie
-
-[***From Graphs to Hypergraphs: Enhancing Aspect-Term Sentiment Analysis via Multi-Level Relational Modeling***](https://aclanthology.org/2026.acl-srw.53.pdf)\
-Omkar Mahesh Kashyap; Padegal Amit; Madhav Kashyap; Ashwini M Joshi; Shylaja S S
-
 [***Probing Bias Formation in Medical LLMs through Activation Steering***](https://aclanthology.org/2026.acl-srw.54.pdf)\
 Bayram Ayadi; Annette Hautli-Janisz
-
-[***Faithfulness Beyond Plausibility: Auditing Human Explanations in Educational Assessment***](https://aclanthology.org/2026.acl-srw.55.pdf)\
-Ria Talsania; Dhruv Ritesh Shah; Sudhir Dhage
-
-[***CBAL: Context-Based Agentic Learning for Speaker Diarization Segmentation Refinement***](https://aclanthology.org/2026.acl-srw.58.pdf)\
-Odwitiyo Dutta; Dinesh K Vishwakarma
-
-[***Measuring and Mitigating Shortcut Reliance in Language Models with Probe-Based Representation Entanglement***](https://aclanthology.org/2026.acl-srw.59.pdf)\
-Divyajot Singh
 
 [***LAMP-MedQA: A Lightweight Multi-Agent System for Patient-Oriented Medical Question Answering***](https://aclanthology.org/2026.acl-srw.60.pdf)\
 Jack A. Johnson; Meghali Banerjee; Joseph Crawford; James Welch; Jim Davies; Tingyan Wang
 
 [***Inference-Time Feedback for Reasoning Controllability in Diffusion Language Models***](https://aclanthology.org/2026.acl-srw.61.pdf)\
 Clovis Barbour; Huixin Zhan
-
-[***Disentangling Linguistic Relatedness from Task Alignment in Cross-Lingual Transfer***](https://aclanthology.org/2026.acl-srw.62.pdf)\
-Ahmed Haj Ahmed; Ruochen Zhang; Alvin C Grissom II
-
-[***PE-QAT: Parameter-Efficient Quantization-Aware Training for Large Language Models***](https://aclanthology.org/2026.acl-srw.63.pdf)\
-Shresth Mishra
 
 [***Fusion Training for Mathematical Generalization in Large Language Models***](https://aclanthology.org/2026.acl-srw.64.pdf)\
 Congfeng Cao; Pengyu Zhang; Jelke Bloem
@@ -176,12 +107,6 @@ Upasana Chatterjee
 
 [***Understanding Conversational Implicatures in Humans and LLMs***](https://aclanthology.org/2026.acl-srw.66.pdf)\
 Daeun Kang
-
-[***Thesis Proposal: Self-Adaptive and Epistemic Uncertainty-Guided ASR of Dense Intra-Sentential Code-Switched Speech for African Low-Resource Languages***](https://aclanthology.org/2026.acl-srw.67.pdf)\
-Umar Baba Umar
-
-[***RegTrack: A Fine-Grained Benchmark for Multi-Class Legal Change Detection***](https://aclanthology.org/2026.acl-srw.68.pdf)\
-Joe Yu; Kevin Chenhao Li; Julian Ostarek
 
 [***Validator-Guided Hard Negative Mining for Masked Language Modeling in Low-Resource Ancient Languages***](https://aclanthology.org/2026.acl-srw.69.pdf)\
 Andrei Voinea
@@ -234,20 +159,11 @@ Ishani Mondal
 [***Beyond Discrete Search: Divergent Thinking as Intention Optimization in Latent Space***](https://aclanthology.org/2026.acl-srw.88.pdf)\
 Mateusz Bystroński; Grzegorz Piotrowski; Tomasz Jan Kajdanowicz
 
-[***Boosting Self-Consistency with Ranking***](https://aclanthology.org/2026.acl-srw.89.pdf)\
-Maria Marina; Daniil Moskovskiy; Sergey Pletenev; Mikhail Salnikov; Alexander Panchenko; Viktor Moskvoretskii
-
 [***LLM-Based Zero-Shot Soft Labeling for Anticipating Disagreement in Negotiation Dialogues***](https://aclanthology.org/2026.acl-srw.90.pdf)\
 Ken Watanabe; Katsuhide Fujita
 
 [***Analysis of the Neglect-Zero Effect in Large Language Models***](https://aclanthology.org/2026.acl-srw.91.pdf)\
 Jin Tanaka; Daiki Matsuoka; Ryoma Kumon; Hitomi Yanaka
-
-[***Morphology-Aware Multi-Granularity Representation Learning for Agglutinative Languages***](https://aclanthology.org/2026.acl-srw.92.pdf)\
-zhonghao zhang; NA LIU; Jiajia Ma; Nier Wu; Guiping Liu
-
-[***Processing Inconsistency Predicts Language Competence: LLM Evaluation Without Answer Labels on Turkic Languages***](https://aclanthology.org/2026.acl-srw.94.pdf)\
-Ilya Galyukshev; Ilseyar Alimova
 
 [***TableMBR: Minimum Bayes Risk Table Generation Based on Structural Consistency***](https://aclanthology.org/2026.acl-srw.95.pdf)\
 Yoshida Daiki; Hiroyuki Deguchi; Yusuke Sakai; Hidetaka Kamigaito; Taro Watanabe
@@ -264,14 +180,8 @@ Richard Susilo; Hanna Suominen; Patrik Haslum
 [***Constructing a Japanese Verdict Prediction Dataset for Fact-Checking of LLM-Generated Texts***](https://aclanthology.org/2026.acl-srw.99.pdf)\
 Miwa Masano; Hirokazu Kiyomaru; Atsushi Keyaki; Kaito Horio; Rei Minamoto; Ribeka Keyaki; Kouta Nakayama; Hideyuki Tachibana; Daisuke Kawahara
 
-[***Calibration vs Decision Making: Revisiting the Reliability Paradox in Unlearned Language Models***](https://aclanthology.org/2026.acl-srw.100.pdf)\
-Divyaksh Shukla; Ashutosh Modi
-
 [***Disentangling Meaning and Language Components in Diverse Multilingual Sentence Embeddings***](https://aclanthology.org/2026.acl-srw.102.pdf)\
 Kanade Nonomura; Keita Fukushima; Risa Kondo; Tomoyuki Kajiwara
-
-[***Linguistically-Informed Evaluation of LLMs on Acceptability Judgments in a Forced-Choice Paradigm***](https://aclanthology.org/2026.acl-srw.103.pdf)\
-Ziyue Liu; Nils Reiter
 
 [***Representing Lean Proofs as Trajectories in Latent Space***](https://aclanthology.org/2026.acl-srw.105.pdf)\
 Elisaveta Samoylov; Soroush Vosoughi
@@ -291,9 +201,6 @@ Mateusz Bystroński; Kamil Tagowski; Denis Janiak; Julia Farganus; Lukasz August
 [***Evolutionary Search for Automated Design of Uncertainty Quantification Methods***](https://aclanthology.org/2026.acl-srw.115.pdf)\
 Mikhail Seleznyov; Daniil Korbut; Viktor Moskvoretskii; Oleg Somov; Alexander Panchenko; Elena Tutubalina
 
-[***Thesis Proposal: A Normalization-First Framework for Sound, Complete, and Utility-Ready Open Information Extraction***](https://aclanthology.org/2026.acl-srw.116.pdf)\
-Chandan Prakash; Pavan Kumar Chittimalli; Arnab Bhattacharya
-
 [***Mind the Gap: Multilingual Divide in LLM Bias Detection and Reasoning***](https://aclanthology.org/2026.acl-srw.117.pdf)\
 Medha Hira; Prachi Goyal; Raj Maheshwari; Arnav Goel
 
@@ -306,9 +213,6 @@ Shiv Shankar
 [***Convergent Demographic Utility Hierarchies: Geometry of Intersectional Values in LLMs***](https://aclanthology.org/2026.acl-srw.122.pdf)\
 Pravish Sainath
 
-[***CRL-Prompt: Contrastive and Reinforcement Learning for Soft Prompt Tuning for Text Classification***](https://aclanthology.org/2026.acl-srw.123.pdf)\
-Danila Lapokin; Andrey Savchenko
-
 [***Optimizing Packing and Shuffling Strategies for Enhanced Performance in Generative Language Models***](https://aclanthology.org/2026.acl-srw.124.pdf)\
 Yanbing Chen; Ruilin Wang; Zihao Yang; Lavender Yao Jiang; Eric Karl Oermann
 
@@ -318,17 +222,11 @@ Lukáš Eigler; Jindřich Libovický; David Hurych
 [***Continuous Context Sampling Allows Extending Diversity Boundaries of Large Language Models***](https://aclanthology.org/2026.acl-srw.126.pdf)\
 Mateusz Bystroński; Doheon Han; Nitesh V. Chawla; Tomasz Jan Kajdanowicz
 
-[***One Task Vector is not Enough: A Large-Scale Study for In-Context Learning***](https://aclanthology.org/2026.acl-srw.127.pdf)\
-Pavel Tikhonov; Ivan Oseledets; Elena Tutubalina
-
 ***Thesis Proposal: Uncertainty as Adaptive Control: From Selection to Curriculum via Conformal Calibration***\
 Peihong Li; Yan Yan
 
 ***Believing is Seeing: How Token Inflation Mechanistically Erodes Theory of Mind in Large Language Models***\
 Zhizhi Wang; Ruochen Zhang
-
-***Beyond Static Cropping: Layer-Adaptive Visual Localization and Decoding Enhancement***\
-Zipeng Zhu; Zhanghao Hu; Qinglin Zhu; Jingyong Su; Yulan He; Lin Gui
 
 ***Cultural Value Alignment Via Latent Activation Steering in Large Language Models***\
 Trung Duc Anh Dang; Sarah Masud
@@ -354,9 +252,6 @@ Vishalakshi Arumugam; Dan Schumacher; Veronica Rammouz; Enrique Gonzalez; Jeremy
 ***EnsemHalDet: Robust VLM Hallucination Detection via Ensemble of Internal State Detectors***\
 Ryuhei Miyazato; Shunsuke Kitada; Kei Harada
 
-***Thesis Proposal: Sensitivity of MT Evaluation Metrics to Semantic Errors: A Case Study on Swedish–Finnish Translation***\
-Nuo Xu
-
 ***RECON: Benchmarking Agent Memory for Compositional Reasoning over Long Contexts***\
 Mihir Shriniwas Arya
 
@@ -368,3 +263,115 @@ Pravish Sainath
 
 ***Metadata Conditioned Large Language Models for Localization***\
 Anjishnu Mukherjee; Ziwei Zhu; Antonios Anastasopoulos
+
+## Virtual Posters
+
+**Date & Time:** July 5-7
+**Location:** Virtually on Underline
+
+---
+
+[***Emergence of Minimal Circuits for Indirect Object Identification in Attention-Only Transformers***](https://aclanthology.org/2026.acl-srw.4.pdf)\
+Rabin Adhikari
+
+[***Why Large Language Models can Secretly Outperform Embedding Similarity in Information Retrieval***](https://aclanthology.org/2026.acl-srw.5.pdf)\
+Matei Benescu; Ivo Pascal de Jong
+
+[***Reflection in the Dark: Exposing and Escaping the Black Box in Reflective Prompt Optimization***](https://aclanthology.org/2026.acl-srw.8.pdf)\
+Shiyan Liu; Qifeng Xia; Qiyun Xia; Yisheng Liu; Xinyu Yu; Rui Qu
+
+[***Peek2: Regex-free Byte-level Byte-Pair Encoding Pretokenizer for LLM Inference on Edge Devices***](https://aclanthology.org/2026.acl-srw.10.pdf)\
+Liu Zai; Iraklis A. Klampanos
+
+[***Semantic Contrastive Adaptation for Multimodal Figurative Language Understanding***](https://aclanthology.org/2026.acl-srw.12.pdf)\
+Ayaan Siddiqui
+
+[***Probing Functional Correctness in Diffusion Language Models***](https://aclanthology.org/2026.acl-srw.15.pdf)\
+Guan-Ming Chiu; Jeng-Yue Liu
+
+[***Thesis Proposal: On the Granularity-Robustness Trade-off in Text-Derived Knowledge Graphs***](https://aclanthology.org/2026.acl-srw.17.pdf)\
+Surawat Pralomram
+
+[***TokLens: A Multilingual Lens on Tokenizer Quality for LLMs***](https://aclanthology.org/2026.acl-srw.18.pdf)\
+Guan-Ming Chiu
+
+[***Debiasing Logical Fallacy Detection for Real-World Robustness via Counterfactually Augmented Data***](https://aclanthology.org/2026.acl-srw.30.pdf)\
+Navyansh Singh
+
+[***Garden Path Recovery in Causal and Masked Language Models***](https://aclanthology.org/2026.acl-srw.32.pdf)\
+Sanjan Baitalik; Rajashik Datta
+
+[***Confidence as a Tie-Breaker: Reassessing Multilingual Hedging Bias in LLM-as-a-Judge Evaluation***](https://aclanthology.org/2026.acl-srw.33.pdf)\
+Rajashik Datta; Sanjan Baitalik
+
+[***BanglaSTEM: A Parallel Corpus and Term-Weighted Evaluation for Technical Bangla-English Translation***](https://aclanthology.org/2026.acl-srw.34.pdf)\
+Kazi Reyazul Hasan; A. B. M. Alim Al Islam; Muhammad Abdullah Adnan
+
+[***FedPAGR: Federated Prototype Alignment via Geometric Refinement for Heterogeneous Architectures***](https://aclanthology.org/2026.acl-srw.37.pdf)\
+Kris Prasad; Md Abdullah Al Hafiz Khan
+
+[***Does Locality Cost in Polish Medical Text Classification? Duplicate-Aware Evaluation of Federated Learning***](https://aclanthology.org/2026.acl-srw.44.pdf)\
+Daniel Cieślak; Andrzej Czyżewski
+
+[***Leakage-Aware User-Level ADHD Signal Classification from Social Media: When Graph Aggregation Helps, and When It Does Not***](https://aclanthology.org/2026.acl-srw.47.pdf)\
+Daniel Cieślak; Władysław Średniawa
+
+[***CAL-Log: Cost-Aware Active Learning with Logarithmic Cognitive Effort Modeling and Online Adaptation to Human Annotation Behavior***](https://aclanthology.org/2026.acl-srw.48.pdf)\
+Vihanga Supasan Kariyakaranage; Banuka Athuraliya
+
+[***Counterspeech Generation using Small Language Models***](https://aclanthology.org/2026.acl-srw.52.pdf)\
+Abubakar Sadiq Muhammad; Simona Frenda; Gavin Abercrombie
+
+[***From Graphs to Hypergraphs: Enhancing Aspect-Term Sentiment Analysis via Multi-Level Relational Modeling***](https://aclanthology.org/2026.acl-srw.53.pdf)\
+Omkar Mahesh Kashyap; Padegal Amit; Madhav Kashyap; Ashwini M Joshi; Shylaja S S
+
+[***Faithfulness Beyond Plausibility: Auditing Human Explanations in Educational Assessment***](https://aclanthology.org/2026.acl-srw.55.pdf)\
+Ria Talsania; Dhruv Ritesh Shah; Sudhir Dhage
+
+[***CBAL: Context-Based Agentic Learning for Speaker Diarization Segmentation Refinement***](https://aclanthology.org/2026.acl-srw.58.pdf)\
+Odwitiyo Dutta; Dinesh K Vishwakarma
+
+[***Measuring and Mitigating Shortcut Reliance in Language Models with Probe-Based Representation Entanglement***](https://aclanthology.org/2026.acl-srw.59.pdf)\
+Divyajot Singh
+
+[***Disentangling Linguistic Relatedness from Task Alignment in Cross-Lingual Transfer***](https://aclanthology.org/2026.acl-srw.62.pdf)\
+Ahmed Haj Ahmed; Ruochen Zhang; Alvin C Grissom II
+
+[***PE-QAT: Parameter-Efficient Quantization-Aware Training for Large Language Models***](https://aclanthology.org/2026.acl-srw.63.pdf)\
+Shresth Mishra
+
+[***Thesis Proposal: Self-Adaptive and Epistemic Uncertainty-Guided ASR of Dense Intra-Sentential Code-Switched Speech for African Low-Resource Languages***](https://aclanthology.org/2026.acl-srw.67.pdf)\
+Umar Baba Umar
+
+[***RegTrack: A Fine-Grained Benchmark for Multi-Class Legal Change Detection***](https://aclanthology.org/2026.acl-srw.68.pdf)\
+Joe Yu; Kevin Chenhao Li; Julian Ostarek
+
+[***Boosting Self-Consistency with Ranking***](https://aclanthology.org/2026.acl-srw.89.pdf)\
+Maria Marina; Daniil Moskovskiy; Sergey Pletenev; Mikhail Salnikov; Alexander Panchenko; Viktor Moskvoretskii
+
+[***Morphology-Aware Multi-Granularity Representation Learning for Agglutinative Languages***](https://aclanthology.org/2026.acl-srw.92.pdf)\
+zhonghao zhang; NA LIU; Jiajia Ma; Nier Wu; Guiping Liu
+
+[***Processing Inconsistency Predicts Language Competence: LLM Evaluation Without Answer Labels on Turkic Languages***](https://aclanthology.org/2026.acl-srw.94.pdf)\
+Ilya Galyukshev; Ilseyar Alimova
+
+[***Calibration vs Decision Making: Revisiting the Reliability Paradox in Unlearned Language Models***](https://aclanthology.org/2026.acl-srw.100.pdf)\
+Divyaksh Shukla; Ashutosh Modi
+
+[***Linguistically-Informed Evaluation of LLMs on Acceptability Judgments in a Forced-Choice Paradigm***](https://aclanthology.org/2026.acl-srw.103.pdf)\
+Ziyue Liu; Nils Reiter
+
+[***Thesis Proposal: A Normalization-First Framework for Sound, Complete, and Utility-Ready Open Information Extraction***](https://aclanthology.org/2026.acl-srw.116.pdf)\
+Chandan Prakash; Pavan Kumar Chittimalli; Arnab Bhattacharya
+
+[***CRL-Prompt: Contrastive and Reinforcement Learning for Soft Prompt Tuning for Text Classification***](https://aclanthology.org/2026.acl-srw.123.pdf)\
+Danila Lapokin; Andrey Savchenko
+
+[***One Task Vector is not Enough: A Large-Scale Study for In-Context Learning***](https://aclanthology.org/2026.acl-srw.127.pdf)\
+Pavel Tikhonov; Ivan Oseledets; Elena Tutubalina
+
+***Beyond Static Cropping: Layer-Adaptive Visual Localization and Decoding Enhancement***\
+Zipeng Zhu; Zhanghao Hu; Qinglin Zhu; Jingyong Su; Yulan He; Lin Gui
+
+***Thesis Proposal: Sensitivity of MT Evaluation Metrics to Semantic Errors: A Case Study on Swedish–Finnish Translation***\
+Nuo Xu

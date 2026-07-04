@@ -110,6 +110,8 @@ This session will feature [**SRW poster presentations**](/posters).
 ## Virtual Program
 
 **Date & Time:** July 5-7
-**Location:** Virtually on underline
+**Location:** Virtually on Underline
+
+This session will feature [**virtual poster presentations**](/posters#virtual-posters).
 
 ---
