@@ -103,7 +103,7 @@ The workshop program is as follows.
 **Date & Time:** Monday, July 6 | 09:00–10:30
 **Location:** Grand Hall
 
-This session will feature **SRW poster presentations**.
+This session will feature [**SRW poster presentations**](/posters).
 
 ---
 
