@@ -8,6 +8,9 @@ published: true
 
 # SRW Poster Session
 
+**Date & Time:** Monday, July 6 | 09:00–10:30
+**Location:** Grand Hall
+
 The following papers are presented in the SRW poster session.
 
 ---
